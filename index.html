@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI 个人工作台：在本机自动整理 Codex 对话、Git、任务、报告、Token、知识和轻量工时。">
+  <meta name="theme-color" content="#0d1017">
+  <title>AI 个人工作台｜本地 Codex 工作管理工具</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient one"></div><div class="ambient two"></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><span>AI</span><b>个人工作台</b></a>
+    <nav><a href="#features">功能</a><a href="#privacy">隐私</a><a href="#screens">界面</a><a href="#download">下载</a></nav>
+    <div class="header-actions"><button id="themeToggle" type="button">C 暖色</button><a href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><i></i> Windows 本地优先 · 开源桌面工具</div>
+        <h1>不再回忆今天做了什么，<br><span>让工作记录自己生成。</span></h1>
+        <p>自动整理本机 Codex 普通与归档对话、Git 提交、任务和测试，生成按项目归类的日/周报告、日历、Token 分析与可复用知识。</p>
+        <div class="hero-actions"><a id="heroDownload" class="button primary" href="#download">下载 Windows 版</a><a class="button secondary" href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">查看源代码</a></div>
+        <div class="hero-meta"><span><b id="heroVersion">V1.0</b> 当前版本</span><span><b>本地 SQLite</b> 数据不上传</span><span><b>安装 / 便携</b> 两种版本</span></div>
+      </div>
+      <div class="hero-visual"><div class="window-bar"><i></i><i></i><i></i><span>AI 个人工作台</span></div><img src="assets/dashboard.png" alt="AI 个人工作台首页界面"></div>
+    </section>
+
+    <section class="statement shell"><p>核心只回答三件事</p><div><article><span>01</span><h2>我做了什么</h2><p>从 Codex 与 Git 中还原每日、每周的项目成果。</p></article><article><span>02</span><h2>接下来做什么</h2><p>每日、每周、项目任务统一计划，AI 建议确认后再进入待办。</p></article><article><span>03</span><h2>哪些结果能复用</h2><p>自动提炼实现方案、操作步骤、参考文件与注意事项。</p></article></div></section>
+
+    <section id="features" class="features shell">
+      <div class="section-heading"><div><small>FEATURES</small><h2>一套真正服务个人开发工作的工具</h2></div><p>没有绩效评分和复杂审批流，所有模块都围绕个人复盘、继续开发和复用经验。</p></div>
+      <div class="feature-grid">
+        <article class="feature-card featured"><span>◫</span><div><small>工作记录</small><h3>从第一次使用 Codex 开始</h3><p>普通和归档会话统一分析，按天、周、项目展示完成的核心功能，并关联 Git、测试、报告与 Token。</p></div></article>
+        <article class="feature-card"><span>✓</span><div><small>任务与日历</small><h3>计划和结果在同一天对齐</h3><p>每日、每周和项目任务统一管理，支持逾期顺延、来源追踪、日期详情和甘特图。</p></div></article>
+        <article class="feature-card"><span>▤</span><div><small>报告中心</small><h3>只写看得懂的功能成果</h3><p>按项目总结做了什么，过滤停止服务、查看目录等低价值过程，支持编辑、锁定和导出。</p></div></article>
+        <article class="feature-card"><span>◔</span><div><small>Token 分析</small><h3>每一个 Token 都能追溯</h3><p>输入、缓存、输出、推理与总量，可按日/周/月、项目、模型和对话查看。</p></div></article>
+        <article class="feature-card"><span>◇</span><div><small>知识库</small><h3>自动沉淀可以照着做的方法</h3><p>整理适用场景、实现方法、操作步骤、注意事项、参考文件和来源记录。</p></div></article>
+        <article class="feature-card"><span>◷</span><div><small>轻量工时</small><h3>估算，但不冒充精确考勤</h3><p>根据本地活动估算工作区间，允许手工补录与修正，并保留原始估算。</p></div></article>
+        <article class="feature-card"><span>◎</span><div><small>测试中心</small><h3>直接复用项目已有测试</h3><p>运行已有功能/样式测试、查看报告，并对失败项生成可执行的整改建议。</p></div></article>
+        <article class="feature-card"><span>✦</span><div><small>内容工坊</small><h3>每天 5 个科技内容方案</h3><p>提供标题、口播、分镜、AI 画面提示词与剪辑指导。</p></div></article>
+      </div>
+    </section>
+
+    <section id="privacy" class="privacy">
+      <div><small>LOCAL FIRST</small><h2>你的工作历史，<br>应该首先属于你自己。</h2><p>任务、报告、知识、测试与统计保存在 Windows 本机 SQLite。扫描 Codex 和 Git 时只读取本地文件，不会在后台自动上传原始对话。</p><ul><li>✓ 无需部署服务器</li><li>✓ API Key 存在凭据库</li><li>✓ 工时明确标记为估算</li><li>✓ 源码公开可审查</li></ul></div>
+      <div class="privacy-console"><header><span>本地数据流</span><em>只在你的电脑</em></header><pre><code>Codex 对话 ─┐<br>Git 提交 ───┼─→ 本地分析 ─→ SQLite<br>任务 / 测试 ┘          │<br>                       ├─ 日报 / 周报<br>                       ├─ 日历 / Token<br>                       └─ 可复用知识</code></pre><footer><i></i> 不需要云端账户</footer></div>
+    </section>
+
+    <section id="screens" class="screens shell">
+      <div class="section-heading"><div><small>INTERFACE</small><h2>B 指挥中心布局，也可以切换 C 暖色</h2></div><p>固定导航、规则卡片和右侧建议区，兼顾信息密度与长时间办公。</p></div>
+      <div class="screen-grid"><button class="screen-card" data-image="assets/dashboard.png" data-alt="工作台首页"><img src="assets/dashboard.png" alt="工作台首页"><span>工作台首页</span></button><button class="screen-card" data-image="assets/calendar.png" data-alt="日历与甘特"><img src="assets/calendar.png" alt="日历与甘特"><span>日历与甘特</span></button><button class="screen-card" data-image="assets/tokens.png" data-alt="Token 分析"><img src="assets/tokens.png" alt="Token 分析"><span>Token 分析</span></button></div>
+    </section>
+
+    <section id="download" class="download shell">
+      <div class="download-intro"><small>DOWNLOAD</small><h2>下载 Windows 版本</h2><p>安装版适合长期使用；便携版无需安装，可放在任意目录运行。两者读取同一份本机数据。</p><div class="system"><span>Windows 10 / 11</span><span>x64</span><span>本地运行</span></div></div>
+      <div class="download-cards">
+        <article class="download-card recommended"><div class="recommend">推荐</div><span class="package-icon">↓</span><h3>安装版</h3><p>创建开始菜单入口，适合日常长期使用。</p><dl><div><dt>版本</dt><dd class="release-version">V1.0</dd></div><div><dt>大小</dt><dd id="installerSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="installerHash">读取中</code><button class="copy-hash" data-copy="installerHash">复制</button></dd></div></dl><a id="installerDownload" class="button primary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载安装版</a></article>
+        <article class="download-card"><span class="package-icon">▣</span><h3>便携版</h3><p>无需安装，下载后可直接运行。</p><dl><div><dt>版本</dt><dd class="release-version">V1.0</dd></div><div><dt>大小</dt><dd id="portableSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="portableHash">读取中</code><button class="copy-hash" data-copy="portableHash">复制</button></dd></div></dl><a id="portableDownload" class="button secondary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载便携版</a></article>
+      </div>
+      <div class="download-notes"><article><b>首次启动</b><p>程序会扫描当前用户的 Codex 普通与归档会话，历史较多时首次整理需要一些时间。</p></article><article><b>SmartScreen 提示</b><p>当前尚未购买代码签名证书，Windows 可能显示“未知发布者”。请从本页下载并核对 SHA-256。</p></article><article><b>项目测试</b><p>测试中心需要本机存在相应项目。没有 client/APP 项目时列表为空，不影响其他功能。</p></article></div>
+      <p id="releaseStatus" class="release-status">正在读取最新版本信息…</p>
+    </section>
+  </main>
+
+  <footer><div class="brand"><span>AI</span><b>个人工作台</b></div><p>本地优先的个人 Codex 工作管理工具</p><div><a href="https://github.com/kange666/ai-personal-workbench">源代码</a><a href="https://github.com/kange666/ai-personal-workbench-download/releases">历史版本</a><a href="#privacy">隐私说明</a></div></footer>
+  <dialog id="imageDialog"><button id="closeDialog" aria-label="关闭">×</button><img id="dialogImage" alt="界面预览大图"></dialog>
+  <script src="release.js"></script>
+</body>
+</html>
