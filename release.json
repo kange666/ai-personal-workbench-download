@@ -1,21 +1,21 @@
 {
-  "version": "V1.0",
-  "publishedAt": "2026-08-03T10:01:37Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.0",
+  "version": "V1.1",
+  "publishedAt": "2026-08-04T08:36:49Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.1",
   "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "47b0c1a159029c46b95c190d79987d361be03ea6",
+  "sourceCommit": "622983783931b64a890361f13303bc8ef59a7650",
   "installer": {
-    "name": "AI-Personal-Workbench-V1.0-Installer.exe",
-    "sizeBytes": 4023217,
-    "sizeText": "3.84 MB",
-    "sha256": "726F1CF3804B9C29C975232C24E38F4064B4EED4903C6FED200D68FCD6626EEB",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.0/AI-Personal-Workbench-V1.0-Installer.exe"
+    "name": "AI-Personal-Workbench-V1.1-Installer.exe",
+    "sizeBytes": 4157042,
+    "sizeText": "3.96 MB",
+    "sha256": "F6744CE11CF593C9D1B553F0825F1A584ABAAA491B0D7F104D1F5EDCA593DE7E",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.1/AI-Personal-Workbench-V1.1-Installer.exe"
   },
   "portable": {
-    "name": "AI-Personal-Workbench-V1.0-Portable.exe",
-    "sizeBytes": 15202304,
-    "sizeText": "14.50 MB",
-    "sha256": "DB589CDE9BF088D17F2DE8CADFADE0171B1028C5F81C003462741BEAD4FC25D1",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.0/AI-Personal-Workbench-V1.0-Portable.exe"
+    "name": "AI-Personal-Workbench-V1.1-Portable.exe",
+    "sizeBytes": 15463936,
+    "sizeText": "14.75 MB",
+    "sha256": "FAF5BA8FB6E732DDEF677D90F633569A968B2F1DF0D1D2F20382EAE9F2EC91A1",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.1/AI-Personal-Workbench-V1.1-Portable.exe"
   }
 }
