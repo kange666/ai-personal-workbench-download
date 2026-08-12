@@ -1,29 +1,29 @@
 {
-  "version": "V1.4.0",
-  "notes": "新增 TAPD 与 Codex 闭环、任务完成通知、知识自动提炼、测试与视频中心增强、快速记录、数据备份和一键更新，并统一详情标题与界面布局。",
-  "pub_date": "2026-08-10T09:21:01Z",
-  "publishedAt": "2026-08-10T09:21:01Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.4.0",
+  "version": "V1.4.1",
+  "notes": "邮件通知取消固定时间限制，开关开启后新完成的 Codex 任务即可发送；Token 数据启动后自动刷新，并每 10 分钟增量同步首页、Token 分析、工作记录和日历。",
+  "pub_date": "2026-08-12T02:48:31Z",
+  "publishedAt": "2026-08-12T02:48:31Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.4.1",
   "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "a1cc859ae5f2a9b29b0976aa819bae3de9e9d4f3",
+  "sourceCommit": "301a7b1117be20ccbd24f0f757b5365e2cc2ae3a",
   "installer": {
-    "name": "AI-Personal-Workbench-V1.4.0-Installer.exe",
-    "sizeBytes": 6305382,
-    "sizeText": "6.01 MB",
-    "sha256": "5063BD234A779AE094D3A6E93F87575850F43579BD11554A4C635EC96A309AC5",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.0/AI-Personal-Workbench-V1.4.0-Installer.exe"
+    "name": "AI-Personal-Workbench-V1.4.1-Installer.exe",
+    "sizeBytes": 6308732,
+    "sizeText": "6.02 MB",
+    "sha256": "B64B8693539386045FCDCB3D4638E5FE6DF9C8D98914FD43461C8E35C3EF250F",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.1/AI-Personal-Workbench-V1.4.1-Installer.exe"
   },
   "portable": {
-    "name": "AI-Personal-Workbench-V1.4.0-Portable.exe",
-    "sizeBytes": 21568512,
-    "sizeText": "20.57 MB",
-    "sha256": "BBCF31DB90653BB30A6F0D8C92A2D2033529EDE9E0FA9EA7C7CAA1BE90A833A6",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.0/AI-Personal-Workbench-V1.4.0-Portable.exe"
+    "name": "AI-Personal-Workbench-V1.4.1-Portable.exe",
+    "sizeBytes": 21586944,
+    "sizeText": "20.59 MB",
+    "sha256": "B1A0E09D24D0740371341210F90D7652CEF555D6E57C8C01B8EDECFE96F2F169",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.1/AI-Personal-Workbench-V1.4.1-Portable.exe"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2tFKzVOWkd1MmlMYnY5OGVmU3YzczVBMU9rT04yWUtjOHlQYnZSNTZ2NFFScnROSkYyUUhIaXpvY0xnYzdMeWFVbHh3V1FlV2p2ZjdYVGxPSUE4cVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzUzNjUyCWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNC4wX3g2NC1zZXR1cC5leGUKdjNUVVJiRGFkOVJIRjl4aTVEYW5yRzZGK1lBNTVUQ2dRV0s4cE5mcW9JdmZsRHRCNTJXbVB5OFZnQiswSFZRUEpnT2tpcHFKSk9NYTkrTE8yY2ZHREE9PQo=",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.0/AI-Personal-Workbench-V1.4.0-Installer.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3ZqZUVHR05tVWY1ZmRPMmUzL1pJNWNBcEJxQmo4UHFBN1QzYm01dytwK0t5a3JXeUw5ZTRSaVFoaGYzdDRZd3N1NUhDZUt6eWdwbGk2OFB5YXZsVmdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTAyODk3CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNC4xX3g2NC1zZXR1cC5leGUKeWNXcTRJTytyRUtDcHpheGFvZ2NyYnA5VFhhS240Yi82UkVwemhjdHRCSTVDQ0dBWTFYZFQzK3pzV052a0JwZTErUXFBZFhDQW9Ra1NPUUpTbVNFQ1E9PQo=",
+      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.4.1/AI-Personal-Workbench-V1.4.1-Installer.exe"
     }
   }
 }
