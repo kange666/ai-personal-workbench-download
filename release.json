@@ -1,29 +1,29 @@
 {
-    "version":  "1.6.0",
-    "notes":  "新增统一待处理收件箱、项目身份映射和报告证据链；完善项目资产、TAPD 多项目自动处理、设置布局及本地运行与 Git 操作。",
-    "pub_date":  "2026-08-24T03:20:03Z",
-    "publishedAt":  "2026-08-24T03:20:03Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.6.0",
-    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "650f0361a067fc7f5e93a3fc2b6f212623d90ae9",
-    "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.6.0-Installer.exe",
-                      "sizeBytes":  6528154,
-                      "sizeText":  "6.23 MB",
-                      "sha256":  "A29CBF84D047EF4A286BCF8D1C902DFC572DCE6D0B7CEFD0A57C73CFD19C907E",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.6.0/AI-Personal-Workbench-V1.6.0-Installer.exe"
-                  },
-    "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.6.0-Portable.exe",
-                     "sizeBytes":  22450688,
-                     "sizeText":  "21.41 MB",
-                     "sha256":  "22504896E94F2CB8A62ADFE2983F3E06791E2E2B49932E0F61394C37A6618B69",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.6.0/AI-Personal-Workbench-V1.6.0-Portable.exe"
-                 },
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d21sOEplV2dPRkJUVEllaDd2OENCUnRSQ2RRSmtHaWhkaVJndmhFZFBtMzAzblFoZUZaaUsyaGFOM3JVRXR1bm5iNUZBeDdmREl4YXQvM3FodC9vMFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTQxNTk2CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNi4wX3g2NC1zZXR1cC5leGUKYkJBd1JKZVpPbE1la2kxa3FrcXNZVlVBcUUzNkJwcnErRTY1ZXRKeXpVOTMzYnZyOE0wZnB6T24rTGdnMi9uYkRzQWFZemRsZ0EyNWUyT1ExdzZEQkE9PQo=",
-                                             "url":  "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.6.0/AI-Personal-Workbench-V1.6.0-Installer.exe"
-                                         }
-                  }
+  "version": "1.7.0",
+  "notes": "测试中心支持项目资产切换、缺失用例安全创建、四类测试与场景勾选；新增执行前检查、进度取消、历史回归和失败整改；优化失败截图报告并支持 PDF 导出。",
+  "pub_date": "2026-08-24T04:27:28Z",
+  "publishedAt": "2026-08-24T04:27:28Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.7.0",
+  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
+  "sourceCommit": "c9f0f1aeffea773a53a923804de6fcfd4f9e4608",
+  "installer": {
+    "name": "AI-Personal-Workbench-V1.7.0-Installer.exe",
+    "sizeBytes": 6607700,
+    "sizeText": "6.30 MB",
+    "sha256": "5D31D1CC4E81A131908D96734FD9658BD729E99B15766D6F3B7B61EC6D9068C0",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Installer.exe"
+  },
+  "portable": {
+    "name": "AI-Personal-Workbench-V1.7.0-Portable.exe",
+    "sizeBytes": 22875648,
+    "sizeText": "21.82 MB",
+    "sha256": "E9DE1A7F79CFC07BE9D0DD0D13141B64B42C1DF6A60C35DF4B46AD2D55AB7B6A",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Portable.exe"
+  },
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2l1TkNWMzE3ZUQ2UEpnd3NZSlo5ZEhFVWNWSmxGOXlaSmRRbGF0NkZGb2J4NVNlM3BHeFZrZnEzbUovQmJFdGY4N2VFSGhWT0p3NWdEaUtac09PaGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTQ1NjQwCWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNy4wX3g2NC1zZXR1cC5leGUKQUY3R3N5SVl5TEhNSXFESU9DeFlWUnBndnJPVGQ4a1JsQkZWQVR4WXBqT2FMby9KRWxReXVKQlRBbC9SeGprdXV3SUtzdmp4SS9sbk16ZnIweWJqRGc9PQo=",
+      "url": "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.7.0/AI-Personal-Workbench-V1.7.0-Installer.exe"
+    }
+  }
 }
