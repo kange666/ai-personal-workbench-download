@@ -1,12 +1,12 @@
-# AI 个人工作台 V1.8.0
+# AI 个人工作台 V1.8.1
 
 面向 Windows 的本地 Codex 工作管理工具，帮助你回答三件事：我做了什么、接下来做什么、哪些结果可以复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.0/AI-Personal-Workbench-V1.8.0-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.0/AI-Personal-Workbench-V1.8.0-Portable.exe)
-- [查看 V1.8.0 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.0)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.1/AI-Personal-Workbench-V1.8.1-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.1/AI-Personal-Workbench-V1.8.1-Portable.exe)
+- [查看 V1.8.1 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.1)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
 ## 核心功能
@@ -25,6 +25,7 @@
 - 使用项目身份映射统一本地目录、Codex、Git 与 TAPD 的统计口径，并在报告中提供来源证据链。
 - 项目资产支持置顶、隐藏与恢复，并按最近更新时间展示。
 - 提供 Git 分支切换、合并、更新、拉取、安全回退、提交历史和自动提交信息。
+- 一键更新自动识别 Windows 系统代理，并在连接中断时自动重试。
 
 数据默认保存在本机 SQLite；程序不会自动上传原始 Codex 对话。工时明确标记为估算，项目提交、清理和环境修改均需人工确认。
 

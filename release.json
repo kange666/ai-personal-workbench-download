@@ -1,29 +1,29 @@
 {
-  "version": "1.8.0",
-  "notes": "新增全局数据加载动画与右侧工作状态栏，黄历置顶；运行中项目和正在执行模块按实际状态显示；增强测试报告、截图、日志、取消与整改流程。",
-  "pub_date": "2026-08-24T08:20:56Z",
-  "publishedAt": "2026-08-24T08:20:56Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.0",
+  "version": "1.8.1",
+  "notes": "修复一键更新无法使用 Windows 系统代理的问题；自动识别环境变量和 Windows 系统代理，并在更新检查与下载中自动重试。",
+  "pub_date": "2026-08-24T09:14:06Z",
+  "publishedAt": "2026-08-24T09:14:06Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.1",
   "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "d25f569ba77ae858fa5e332f7c9d8acba899ec33",
+  "sourceCommit": "61f3b516af7579b01e955256cfcace17d1894b52",
   "installer": {
-    "name": "AI-Personal-Workbench-V1.8.0-Installer.exe",
-    "sizeBytes": 6655515,
+    "name": "AI-Personal-Workbench-V1.8.1-Installer.exe",
+    "sizeBytes": 6656995,
     "sizeText": "6.35 MB",
-    "sha256": "E06C8712B7775FCDD1C89C978C5C1D997E10F10535E6EB37F3B85AD6D369B5B3",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.0/AI-Personal-Workbench-V1.8.0-Installer.exe"
+    "sha256": "A331EA39F6E7BDD68B08920CADA8D3AC8B594AAA1E35D185E4959536287017F1",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.1/AI-Personal-Workbench-V1.8.1-Installer.exe"
   },
   "portable": {
-    "name": "AI-Personal-Workbench-V1.8.0-Portable.exe",
-    "sizeBytes": 22974976,
-    "sizeText": "21.91 MB",
-    "sha256": "2CB17728FB28413A827B128DA4AB9D29B31843E17DEFADA088719144343F03F7",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.0/AI-Personal-Workbench-V1.8.0-Portable.exe"
+    "name": "AI-Personal-Workbench-V1.8.1-Portable.exe",
+    "sizeBytes": 22957568,
+    "sizeText": "21.89 MB",
+    "sha256": "98D7DA0D52CC601D4EB39C31961314AA95335A740AF87EF5270390DD5635E30E",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.1/AI-Personal-Workbench-V1.8.1-Portable.exe"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3RLdEZnR3V5VE8rQ24wRjlrdEs5K1R1QTlaRnNSbHBIVW0ydVp3L1plaUhHa040MGRxS3RFRGFYNWY0RG5uOEVFZnVva1d6TktPdjA5WlhFMXlNRFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTU5NjQ4CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOC4wX3g2NC1zZXR1cC5leGUKMndWd210cEMvSWNGYlplTlhBMzIzUFpMdW1LcGxGSFRBVzlSMlVweWdBRXl6dGsvYVdiRWZZQy9YcUlwUUVMcE1XbGZrU0RYMXl3N1hCZC8yTjZhQ2c9PQo=",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.0/AI-Personal-Workbench-V1.8.0-Installer.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3Zyci8vdUJkeUsxWmRMak9HZlNHNE9RZUkwdHpnQlJtUE02cEwzcm9MTWpNVlpMcm92dWtzZVoraFp0VUhZVVczUU4rcmFQWmxxMHNDS0REYUx6ZlFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTYyODM1CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOC4xX3g2NC1zZXR1cC5leGUKSUt1UmFMNnVaOFlwTWpUYTFxOFlOd2E0N1psWEMwMkdlM0VyMllIaG5jaERpVlVFVkg4RXdmYlBRRmdwbEdaSlBCbDlJRWZOa0VNZmp1MEhDZUpyQlE9PQo=",
+      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.1/AI-Personal-Workbench-V1.8.1-Installer.exe"
     }
   }
 }
