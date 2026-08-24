@@ -1,12 +1,12 @@
-# AI 个人工作台 V1.7.0
+# AI 个人工作台 V1.7.1
 
 面向 Windows 的本地 Codex 工作管理工具，帮助你回答三件事：我做了什么、接下来做什么、哪些结果可以复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Portable.exe)
-- [查看 V1.7.0 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.7.0)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.1/AI-Personal-Workbench-V1.7.1-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.1/AI-Personal-Workbench-V1.7.1-Portable.exe)
+- [查看 V1.7.1 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.7.1)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
 ## 核心功能

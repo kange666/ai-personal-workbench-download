@@ -1,29 +1,29 @@
 {
-  "version": "1.7.0",
-  "notes": "测试中心支持项目资产切换、缺失用例安全创建、四类测试与场景勾选；新增执行前检查、进度取消、历史回归和失败整改；优化失败截图报告并支持 PDF 导出。",
-  "pub_date": "2026-08-24T04:27:28Z",
-  "publishedAt": "2026-08-24T04:27:28Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.7.0",
-  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "c9f0f1aeffea773a53a923804de6fcfd4f9e4608",
-  "installer": {
-    "name": "AI-Personal-Workbench-V1.7.0-Installer.exe",
-    "sizeBytes": 6607700,
-    "sizeText": "6.30 MB",
-    "sha256": "5D31D1CC4E81A131908D96734FD9658BD729E99B15766D6F3B7B61EC6D9068C0",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Installer.exe"
-  },
-  "portable": {
-    "name": "AI-Personal-Workbench-V1.7.0-Portable.exe",
-    "sizeBytes": 22875648,
-    "sizeText": "21.82 MB",
-    "sha256": "E9DE1A7F79CFC07BE9D0DD0D13141B64B42C1DF6A60C35DF4B46AD2D55AB7B6A",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.0/AI-Personal-Workbench-V1.7.0-Portable.exe"
-  },
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2l1TkNWMzE3ZUQ2UEpnd3NZSlo5ZEhFVWNWSmxGOXlaSmRRbGF0NkZGb2J4NVNlM3BHeFZrZnEzbUovQmJFdGY4N2VFSGhWT0p3NWdEaUtac09PaGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTQ1NjQwCWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNy4wX3g2NC1zZXR1cC5leGUKQUY3R3N5SVl5TEhNSXFESU9DeFlWUnBndnJPVGQ4a1JsQkZWQVR4WXBqT2FMby9KRWxReXVKQlRBbC9SeGprdXV3SUtzdmp4SS9sbk16ZnIweWJqRGc9PQo=",
-      "url": "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.7.0/AI-Personal-Workbench-V1.7.0-Installer.exe"
-    }
-  }
+    "version":  "1.7.1",
+    "notes":  "修复从旧版本升级到 V1.7.0 后，数据库迁移顺序错误导致应用启动即退出的问题；新增旧数据库升级回归测试。",
+    "pub_date":  "2026-08-24T05:11:35Z",
+    "publishedAt":  "2026-08-24T05:11:35Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.7.1",
+    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
+    "sourceCommit":  "758dc75d370d84017fbba43b7cdb467b8ccaaa6e",
+    "installer":  {
+                      "name":  "AI-Personal-Workbench-V1.7.1-Installer.exe",
+                      "sizeBytes":  6606488,
+                      "sizeText":  "6.30 MB",
+                      "sha256":  "A077EB5E6C947086843756E2E323D2746DBCD8543F9A2E9D5F322B5E63383043",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.1/AI-Personal-Workbench-V1.7.1-Installer.exe"
+                  },
+    "portable":  {
+                     "name":  "AI-Personal-Workbench-V1.7.1-Portable.exe",
+                     "sizeBytes":  22875136,
+                     "sizeText":  "21.82 MB",
+                     "sha256":  "7DA40041AD95450BA321B954DAC972A7F5ADDC0D324012F3F8692616D0E0E929",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.7.1/AI-Personal-Workbench-V1.7.1-Portable.exe"
+                 },
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3V2L1pFckl3SldMUURGZDhtVzhHL3M0K1BzczVxanlDWktHT0M3b00zcXNaQ1dzUVRldWtQVnZmU00xTzh5TklSVXBhVXpiN0RFS0F1NFdyMUExV2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTQ4Mjg5CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNy4xX3g2NC1zZXR1cC5leGUKZENQSGxGMzdNQ2ZpUlJUMTVUVG1PSkZ4d2wvNmhzMUZDZmRXaUlTQnVxZkROVUdaTmZ5SGprM2FicVdBZnpOc0o2YjRnbGVaVUJVUVdjY1l1RjJRREE9PQo=",
+                                             "url":  "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.7.1/AI-Personal-Workbench-V1.7.1-Installer.exe"
+                                         }
+                  }
 }
