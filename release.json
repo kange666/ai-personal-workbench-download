@@ -1,29 +1,29 @@
 {
-  "version": "1.5.1",
-  "notes": "修复一键更新卡在 0 KB；项目资产新增一键启动和手工分类筛选。",
-  "pub_date": "2026-08-21T07:04:42Z",
-  "publishedAt": "2026-08-21T07:04:42Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.5.1",
-  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "9836b72b37df09ff88b39ce4537636519c7d81f4",
-  "installer": {
-    "name": "AI-Personal-Workbench-V1.5.1-Installer.exe",
-    "sizeBytes": 6366602,
-    "sizeText": "6.07 MB",
-    "sha256": "7D7FDBF75CA0413ED35F11A85CED026FCF538042FD2D6563F114B85ACC9A6C23",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.5.1/AI-Personal-Workbench-V1.5.1-Installer.exe"
-  },
-  "portable": {
-    "name": "AI-Personal-Workbench-V1.5.1-Portable.exe",
-    "sizeBytes": 21702656,
-    "sizeText": "20.70 MB",
-    "sha256": "26B778C8953D273A40BAAA6ABB4F584FA422F8D9777218490759F50C9E153EE2",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.5.1/AI-Personal-Workbench-V1.5.1-Portable.exe"
-  },
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d255QjhOcXB2WHA4U04zVnNybGsrWlA0enF5cUp3VUNyR1c1VitQZlp3SncrUnJZR3RWRTRsRVRLeC9TUzBOaHkzTjBFd3VPaUNmQ00zV2M3RTFyb1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3Mjk1ODc1CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNS4xX3g2NC1zZXR1cC5leGUKeXhaQUVvN0d6QTQ5U0EyVjYxTUZoSlpFNUZLZ3BWQ2daKzFjMzhVN2NNTGZ6bmFOR28yZ1dsaWcyUTFBeTJtblB5cGs1VTR5a0t2MGNVSWRTb2FtQUE9PQo=",
-      "url": "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.5.1/AI-Personal-Workbench-V1.5.1-Installer.exe"
-    }
-  }
+    "version":  "1.6.0",
+    "notes":  "新增统一待处理收件箱、项目身份映射和报告证据链；完善项目资产、TAPD 多项目自动处理、设置布局及本地运行与 Git 操作。",
+    "pub_date":  "2026-08-24T03:20:03Z",
+    "publishedAt":  "2026-08-24T03:20:03Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.6.0",
+    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
+    "sourceCommit":  "650f0361a067fc7f5e93a3fc2b6f212623d90ae9",
+    "installer":  {
+                      "name":  "AI-Personal-Workbench-V1.6.0-Installer.exe",
+                      "sizeBytes":  6528154,
+                      "sizeText":  "6.23 MB",
+                      "sha256":  "A29CBF84D047EF4A286BCF8D1C902DFC572DCE6D0B7CEFD0A57C73CFD19C907E",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.6.0/AI-Personal-Workbench-V1.6.0-Installer.exe"
+                  },
+    "portable":  {
+                     "name":  "AI-Personal-Workbench-V1.6.0-Portable.exe",
+                     "sizeBytes":  22450688,
+                     "sizeText":  "21.41 MB",
+                     "sha256":  "22504896E94F2CB8A62ADFE2983F3E06791E2E2B49932E0F61394C37A6618B69",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.6.0/AI-Personal-Workbench-V1.6.0-Portable.exe"
+                 },
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d21sOEplV2dPRkJUVEllaDd2OENCUnRSQ2RRSmtHaWhkaVJndmhFZFBtMzAzblFoZUZaaUsyaGFOM3JVRXR1bm5iNUZBeDdmREl4YXQvM3FodC9vMFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NTQxNTk2CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuNi4wX3g2NC1zZXR1cC5leGUKYkJBd1JKZVpPbE1la2kxa3FrcXNZVlVBcUUzNkJwcnErRTY1ZXRKeXpVOTMzYnZyOE0wZnB6T24rTGdnMi9uYkRzQWFZemRsZ0EyNWUyT1ExdzZEQkE9PQo=",
+                                             "url":  "https://kange666.github.io/ai-personal-workbench-download/downloads/V1.6.0/AI-Personal-Workbench-V1.6.0-Installer.exe"
+                                         }
+                  }
 }
