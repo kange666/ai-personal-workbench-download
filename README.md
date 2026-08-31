@@ -1,12 +1,12 @@
-# AI 个人工作台 V1.8.4
+# AI 个人工作台 V1.8.5
 
 面向 Windows 的本地 Codex 工作管理工具，帮助你回答三件事：我做了什么、接下来做什么、哪些结果可以复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.4/AI-Personal-Workbench-V1.8.4-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.4/AI-Personal-Workbench-V1.8.4-Portable.exe)
-- [查看 V1.8.4 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.4)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.5/AI-Personal-Workbench-V1.8.5-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.5/AI-Personal-Workbench-V1.8.5-Portable.exe)
+- [查看 V1.8.5 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.5)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
 ## 核心功能
@@ -20,8 +20,8 @@
 - 提供 TAPD 工作同步、Codex 完成提醒、PC/APP 完整对照矩阵和每周整体检查。
 - 页面读取数据时显示统一加载动画；右侧工作状态栏集中展示黄历、当前工时、运行项目、执行状态、异常和最近活动。
 - 测试中心会记住所选项目；可运行公共只读真实接口用例，也可按当前业务源码和接口生成、校验专属 Playwright 用例。
-- 开始测试后弹窗自动关闭，右侧状态栏展示测试与 TAPD 任务的进度和预计剩余时间；完成后自动移出。
-- 测试报告集中展示步骤、错误和页面截图，支持查看历史报告、导出并直接打开 PDF，也支持导出 Markdown。
+- 测试运行期间可以随时关闭配置弹框；后台测试继续执行，右侧状态栏持续展示进度和预计剩余时间。
+- 测试报告集中展示步骤、错误和页面截图，支持稳定导出 PDF、通过 Edge/Chrome 直接打开，也支持导出 Markdown。
 - 统一待处理收件箱集中展示 Codex 结果、TAPD 缺陷、测试失败、项目风险和任务建议。
 - 使用项目身份映射统一本地目录、Codex、Git 与 TAPD 的统计口径，并在报告中提供来源证据链。
 - 项目资产支持置顶、隐藏与恢复，并按最近更新时间展示。
