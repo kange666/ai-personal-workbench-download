@@ -1,12 +1,12 @@
-# AI 个人工作台 V1.8.5
+# AI 个人工作台 V1.8.6
 
 面向 Windows 的本地 Codex 工作管理工具，帮助你回答三件事：我做了什么、接下来做什么、哪些结果可以复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.5/AI-Personal-Workbench-V1.8.5-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.5/AI-Personal-Workbench-V1.8.5-Portable.exe)
-- [查看 V1.8.5 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.5)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.6/AI-Personal-Workbench-V1.8.6-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.6/AI-Personal-Workbench-V1.8.6-Portable.exe)
+- [查看 V1.8.6 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.6)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
 ## 核心功能
@@ -24,7 +24,7 @@
 - 测试报告集中展示步骤、错误和页面截图，支持稳定导出 PDF、通过 Edge/Chrome 直接打开，也支持导出 Markdown。
 - 统一待处理收件箱集中展示 Codex 结果、TAPD 缺陷、测试失败、项目风险和任务建议。
 - 使用项目身份映射统一本地目录、Codex、Git 与 TAPD 的统计口径，并在报告中提供来源证据链。
-- 项目资产支持置顶、隐藏与恢复，并按最近更新时间展示。
+- 项目资产支持置顶、隐藏与恢复，并按最近更新时间展示；Git 操作支持差异预览、操作日志、提交后推送引导和安全撤销。
 - 提供 Git 分支切换、合并、更新、拉取、安全回退和提交历史；AI 仅根据已暂存差异生成中文提交建议，可合成一次或按功能关联分组。
 - 一键更新自动识别 Windows 系统代理，并在连接中断时自动重试。
 
