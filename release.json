@@ -1,29 +1,29 @@
 {
-    "version":  "1.8.7",
-    "notes":  "新增 Apifox 接口文档中心：支持多项目关联与同步、OpenAPI 3.1 本地解析、缓存检索、脱敏 Markdown 复制，并联动项目资产、全局搜索、知识库和测试中心。",
-    "pub_date":  "2026-09-01T01:19:54Z",
-    "publishedAt":  "2026-09-01T01:19:54Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.7",
-    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "5de173bc4215f5f9b8bcf9ba14dcf697a2e9dcfa",
-    "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.8.7-Installer.exe",
-                      "sizeBytes":  6853443,
-                      "sizeText":  "6.54 MB",
-                      "sha256":  "D39B4FEEA145680BF0079065C0BAC031E23A90A05044F58B92135C1518BDB506",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.7/AI-Personal-Workbench-V1.8.7-Installer.exe"
-                  },
-    "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.8.7-Portable.exe",
-                     "sizeBytes":  23763456,
-                     "sizeText":  "22.66 MB",
-                     "sha256":  "ABD51F31E087066719DDCBA0BE66F1637EBD1F2F522B6CF003B6EDBBFB8D9B49",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.7/AI-Personal-Workbench-V1.8.7-Portable.exe"
-                 },
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2l5WHhqa003V1lsNXZzUVNIeUV3cUs2bm1rWlJFajA1YmpSclNEUmZsbHhkTWtmZll5UHB1YVQ2OEsyK2g2NzR6bHM1bmxhV2d0VTdiY1ZjVVpnK3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjI1NTg2CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOC43X3g2NC1zZXR1cC5leGUKaEUyWFE2RVZEd3hLQmRHOHRWVlB6YU52ZUdnTUZ5S1IxTUplSm9EeE1CcTVIRER1QjVlMU9IWTJCLzlna1lPdUlqK0dBTE5GMStvS1YxVHdtcHRHQ2c9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.7/AI-Personal-Workbench-V1.8.7-Installer.exe"
-                                         }
-                  }
+  "version": "1.8.8",
+  "notes": "完善接口文档中心：支持标签级 OpenAPI 本地 URL 导出、发送前可编辑的接口测试预览与危险请求确认，以及项目级 request、axios、uni.request 代码模板。",
+  "pub_date": "2026-09-01T05:20:24Z",
+  "publishedAt": "2026-09-01T05:20:24Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.8",
+  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
+  "sourceCommit": "2e1bb61315e58183cea31ce8fcbc4d50f9b09d48",
+  "installer": {
+    "name": "AI-Personal-Workbench-V1.8.8-Installer.exe",
+    "sizeBytes": 6919382,
+    "sizeText": "6.60 MB",
+    "sha256": "2522FC3D43DBA3425388EBBE069B4D1CB9C287EFC3D2442AB046039A88BCA2E6",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.8/AI-Personal-Workbench-V1.8.8-Installer.exe"
+  },
+  "portable": {
+    "name": "AI-Personal-Workbench-V1.8.8-Portable.exe",
+    "sizeBytes": 23956992,
+    "sizeText": "22.85 MB",
+    "sha256": "2B3E10CF6E9C3E30B14017F026FA94EC42F36BDF2646F87DF1E8F58DA9209A37",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.8/AI-Personal-Workbench-V1.8.8-Portable.exe"
+  },
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d29kdzBDQUZnNUFtUmNEdXRvbmtKamo5NXJEVG01MUwySmlvckNTZEJsQ2d4SnZybXovTU8rSDMzQi9MUzY1anBZZzBmc3UrbEpUa2NqMDQvdFgyTkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjQwMDE2CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOC44X3g2NC1zZXR1cC5leGUKTTNjWWtFRWxHSkp6OW5oVkkxTWZaeDZLSDAwU05MRzg4M24vOWxCWHBOYlZJNFM0OUFzNW9PUUZzaDV6SURVQzY5SE4wSTc1cnlkMWRSN2JOUmVpRFE9PQo=",
+      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.8/AI-Personal-Workbench-V1.8.8-Installer.exe"
+    }
+  }
 }
