@@ -1,12 +1,12 @@
-# AI 个人工作台 V1.8.8
+# AI 个人工作台 V1.8.9
 
 面向 Windows 的本地 Codex 工作管理工具，帮助你回答三件事：我做了什么、接下来做什么、哪些结果可以复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.8/AI-Personal-Workbench-V1.8.8-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.8/AI-Personal-Workbench-V1.8.8-Portable.exe)
-- [查看 V1.8.8 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.8)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.9/AI-Personal-Workbench-V1.8.9-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.9/AI-Personal-Workbench-V1.8.9-Portable.exe)
+- [查看 V1.8.9 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.9)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
 ## 核心功能
@@ -19,6 +19,8 @@
 - 管理本地视频、合集、播放和发布资料，跟踪科技、推理与人性主题视频生产进度。
 - 提供 TAPD 工作同步、Codex 完成提醒、PC/APP 完整对照矩阵和每周整体检查。
 - 页面读取数据时显示统一加载动画；右侧工作状态栏集中展示黄历、当前工时、运行项目、执行状态、异常和最近活动。
+- 驾驶舱集中展示运行状态并提供屏保；发布中心会阻止同一 Jenkins 作业与分支重复发布。
+- 支持在设置中调整菜单顺序和显隐；工作日历完整显示标签，本地备份可折叠并自动只保留最近 10 条。
 - 测试中心会记住所选项目；可运行公共只读真实接口用例，也可按当前业务源码和接口生成、校验专属 Playwright 用例。
 - 测试运行期间可以随时关闭配置弹框；后台测试继续执行，右侧状态栏持续展示进度和预计剩余时间。
 - 测试报告集中展示步骤、错误和页面截图，支持稳定导出 PDF、通过 Edge/Chrome 直接打开，也支持导出 Markdown。
