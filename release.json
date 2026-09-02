@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.1",
-    "notes":  "星枢工作台 V1.9.1：新增托盘数字 A/B/C/F 风格切换并默认使用 B 方案，支持即时生效和本地持久化；优化驾驶舱卡片标题与 24 小时工作轨迹布局。",
-    "pub_date":  "2026-09-02T05:11:34Z",
-    "publishedAt":  "2026-09-02T05:11:34Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.1",
+    "version":  "1.9.2",
+    "notes":  "修复品牌升级导致重复安装和安装目录切换的问题：恢复 AI 个人工作台的稳定安装身份，一键更新继续覆盖原安装目录，并自动清理 V1.9.0/V1.9.1 误建的重复安装；同时优化托盘数字间距、清晰度与环形方案。",
+    "pub_date":  "2026-09-02T07:28:16Z",
+    "publishedAt":  "2026-09-02T07:28:16Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.2",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "eaba5bb540469a9146362c66c7d5669713290840",
+    "sourceCommit":  "ead5dc04d28b348d82efb40d8dcbbe392076d9f6",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.1-Installer.exe",
-                      "sizeBytes":  7071499,
-                      "sizeText":  "6.74 MB",
-                      "sha256":  "DE3E9C1CD9A4410F61B34249117E8D5E1E74BBFA48D5F337FA8F2EBFE7657AC5",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.1/AI-Personal-Workbench-V1.9.1-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V1.9.2-Installer.exe",
+                      "sizeBytes":  7084225,
+                      "sizeText":  "6.76 MB",
+                      "sha256":  "7D753C3A17BABAB4CAC6C80B377BDC4E885843067DD15B177DEA8B8ED71F5FF3",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.2/AI-Personal-Workbench-V1.9.2-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.1-Portable.exe",
-                     "sizeBytes":  24783872,
+                     "name":  "AI-Personal-Workbench-V1.9.2-Portable.exe",
+                     "sizeBytes":  24787456,
                      "sizeText":  "23.64 MB",
-                     "sha256":  "FAABBD5E2792410E403C3FF6E02B3FE3736E3363EA99D351909C7D569D56826F",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.1/AI-Personal-Workbench-V1.9.1-Portable.exe"
+                     "sha256":  "A2828A07130F5C4F060495EF1F28E48CDE91140D06C20F91E23A994C91489239",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.2/AI-Personal-Workbench-V1.9.2-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2sxMDZhVzgwdkdxQzBUZityUWp3RWlVWVp6NmJKM3JVK2lPeitWWmx2MHkwNGVPQlU2UVVGd0hDRDVxUU54SFNRcmgzTHdOUGZWU3hsNzVKOEd3c3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzI1ODg5CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xX3g2NC1zZXR1cC5leGUKQTdWcUFBNlZhQ0ZVZjh2MTZkcFRaYXAyLzYyV09xb2tqVjY3bjZwUFpjVmZZcUd4WnhmUDJKTmdHS3piVzY2VmJnM2FVTFllQUNLOUltRUlMMXZ6RGc9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.1/AI-Personal-Workbench-V1.9.1-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2xqUGJ4dWFDM1ZwN0hxU2ZiOS9GbUNoQisyY0Q2dDc5eDdiUDN6T25lRElsc01VbkcyekJGRnAwZlN6RVFRcEM3NW5RTG5xM3RBRmtaYjJvTmpPSEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzM0MDg4CWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOS4yX3g2NC1zZXR1cC5leGUKdlh0YjZaVm5HYldkSGc2NnczSUljb0hscmNaeXNlNXFsQWN3OCtQZm9iNUh1ODNpOWlLbGJpMm9oVDNHbFJRU2s3N2xjM1JoRzFNcUZjdWdKMWxkQ2c9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.2/AI-Personal-Workbench-V1.9.2-Installer.exe"
                                          }
                   }
 }

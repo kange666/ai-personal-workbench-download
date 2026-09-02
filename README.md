@@ -1,14 +1,16 @@
-# 星枢工作台 ASTRION V1.9.1
+# 星枢工作台 ASTRION V1.9.2
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.1/AI-Personal-Workbench-V1.9.1-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.1/AI-Personal-Workbench-V1.9.1-Portable.exe)
-- [查看 V1.9.1 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.1)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.2/AI-Personal-Workbench-V1.9.2-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.2/AI-Personal-Workbench-V1.9.2-Portable.exe)
+- [查看 V1.9.2 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.2)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
+
+V1.9.2 修复一键更新切换安装目录和产生重复应用的问题：继续覆盖原有“AI 个人工作台”安装目录，界面品牌保持“星枢”，不会强制创建新的“星枢工作台”开始菜单入口。
 
 ## 核心工作流
 
