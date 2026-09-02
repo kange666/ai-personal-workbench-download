@@ -1,74 +1,111 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="command">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AI 个人工作台：在本机自动整理 Codex 对话、Git、任务、报告、Token、知识和轻量工时。">
-  <meta name="theme-color" content="#0d1017">
-  <title>AI 个人工作台｜本地 Codex 工作管理工具</title>
+  <meta name="description" content="星枢工作台 ASTRION：在 Windows 本机整合 Codex、Git、项目、任务、测试、TAPD、发布、报告和知识，让开发工作可见、可继续、可复用。">
+  <meta name="theme-color" content="#090c12">
+  <title>星枢工作台 ASTRION｜本地优先的个人开发工作台</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="ambient one"></div><div class="ambient two"></div>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#top"><span>AI</span><b>个人工作台</b></a>
-    <nav><a href="#features">功能</a><a href="#privacy">隐私</a><a href="#screens">界面</a><a href="#download">下载</a></nav>
-    <div class="header-actions"><button id="themeToggle" type="button">C 暖色</button><a href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+    <a class="brand" href="#top" aria-label="返回顶部">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <span class="brand-name"><b>星枢工作台</b><small>ASTRION</small></span>
+    </a>
+    <nav aria-label="页面导航">
+      <a href="#workflow">工作方式</a><a href="#capabilities">功能</a><a href="#local-first">安全</a><a href="#download">下载</a>
+    </nav>
+    <div class="header-actions">
+      <button id="themeToggle" class="theme-toggle" type="button" aria-pressed="false"><i></i><span>暖色</span></button>
+      <a class="github-link" href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero shell">
       <div class="hero-copy">
-        <div class="eyebrow"><i></i> Windows 本地优先 · 开源桌面工具</div>
-        <h1>不再回忆今天做了什么，<br><span>让工作记录自己生成。</span></h1>
-        <p>自动整理本机 Codex 普通与归档对话、Git 提交、任务和测试，生成按项目归类的日/周报告、日历、Token 分析与可复用知识。</p>
-        <div class="hero-actions"><a id="heroDownload" class="button primary" href="#download">下载 Windows 版</a><a class="button secondary" href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">查看源代码</a></div>
-        <div class="hero-meta"><span><b id="heroVersion">V1.3.1</b> 当前版本</span><span><b>本地 SQLite</b> 数据不上传</span><span><b>安装 / 便携</b> 两种版本</span></div>
+        <div class="eyebrow"><i></i><span>Windows 本地优先 · 开源桌面工作台</span></div>
+        <h1>让散落的开发痕迹，<br><em>变成可继续执行的工作现场。</em></h1>
+        <p>星枢把 Codex 对话、Git、本地项目、任务、测试、TAPD 和发布状态统一到一个项目视角。你可以看清今天做了什么、现在卡在哪里，以及下一步从哪里继续。</p>
+        <div class="hero-actions">
+          <a id="heroDownload" class="button primary" href="#download"><span>↓</span> 下载 Windows 版</a>
+          <a class="button secondary" href="#workflow">了解工作方式</a>
+        </div>
+        <div class="hero-facts">
+          <span><b id="heroVersion">读取中</b><small>当前版本</small></span>
+          <span><b>SQLite</b><small>数据保存在本机</small></span>
+          <span><b>人工确认</b><small>高风险操作不越权</small></span>
+        </div>
       </div>
-      <div class="hero-visual"><div class="window-bar"><i></i><i></i><i></i><span>AI 个人工作台</span></div><img src="assets/dashboard.png" alt="AI 个人工作台首页界面"></div>
-    </section>
 
-    <section class="statement shell"><p>核心只回答三件事</p><div><article><span>01</span><h2>我做了什么</h2><p>从 Codex 与 Git 中还原每日、每周的项目成果。</p></article><article><span>02</span><h2>接下来做什么</h2><p>每日、每周、项目任务统一计划，AI 建议确认后再进入待办。</p></article><article><span>03</span><h2>哪些结果能复用</h2><p>自动提炼实现方案、操作步骤、参考文件与注意事项。</p></article></div></section>
-
-    <section id="features" class="features shell">
-      <div class="section-heading"><div><small>FEATURES</small><h2>一套真正服务个人开发工作的工具</h2></div><p>没有绩效评分和复杂审批流，所有模块都围绕个人复盘、继续开发和复用经验。</p></div>
-      <div class="feature-grid">
-        <article class="feature-card featured"><span>◫</span><div><small>工作记录</small><h3>从第一次使用 Codex 开始</h3><p>普通和归档会话统一分析，按天、周、项目展示完成的核心功能，并关联 Git、测试、报告与 Token。</p></div></article>
-        <article class="feature-card"><span>✓</span><div><small>任务与日历</small><h3>计划和结果在同一天对齐</h3><p>每日、每周和项目任务统一管理，支持逾期顺延、甘特图、农历和当天黄历详情。</p></div></article>
-        <article class="feature-card"><span>▤</span><div><small>报告中心</small><h3>只写看得懂的功能成果</h3><p>按项目总结做了什么，过滤停止服务、查看目录等低价值过程，支持编辑、锁定和导出。</p></div></article>
-        <article class="feature-card"><span>◔</span><div><small>Token 分析</small><h3>每一个 Token 都能追溯</h3><p>输入、缓存、输出、推理与总量，可按日/周/月、项目、模型和对话查看。</p></div></article>
-        <article class="feature-card"><span>◇</span><div><small>知识库</small><h3>自动沉淀可以照着做的方法</h3><p>整理适用场景、实现方法、操作步骤、注意事项、参考文件和来源记录。</p></div></article>
-        <article class="feature-card"><span>◷</span><div><small>轻量工时</small><h3>估算，但不冒充精确考勤</h3><p>根据本地活动估算工作区间，允许手工补录与修正，并保留原始估算。</p></div></article>
-        <article class="feature-card"><span>◎</span><div><small>测试中心</small><h3>PC / APP 分层验证</h3><p>复用项目已有测试，分别展示静态、接口和浏览器证据；未实际运行的层级不会冒充通过。</p></div></article>
-        <article class="feature-card"><span>✦</span><div><small>内容工坊</small><h3>科技、推理与逻辑思维选题</h3><p>每天生成 5 个方案，提供口播、分镜、AI 画面提示词，并跟踪 Codex Skill 制作进度。</p></div></article>
-        <article class="feature-card"><span>▶</span><div><small>视频中心</small><h3>播放与交付流水线放在一起</h3><p>管理脚本、成片、封面和发布文案，按科技、推理与人性主题合集检查交付完整性。</p></div></article>
-        <article class="feature-card"><span>▦</span><div><small>项目控制</small><h3>本地仓库与 TAPD 工作统一盘点</h3><p>只读查看仓库状态、TAPD 工作、改动分组建议和每周检查，任何提交与环境修改都需人工确认。</p></div></article>
+      <div class="command-preview" aria-label="星枢工作台功能示意">
+        <div class="preview-glow"></div>
+        <div class="preview-window">
+          <header class="preview-topbar"><span class="preview-logo">✦</span><div class="preview-search">⌕&nbsp;&nbsp;搜索项目、任务、报告和知识</div><span class="preview-focus"><i></i> 1 项需关注</span><span class="preview-quota">◷ 79%</span></header>
+          <div class="preview-body">
+            <aside class="preview-nav"><i class="active">⌂</i><i>▣</i><i>⌘</i><i>◫</i><i>✓</i><i>◇</i></aside>
+            <div class="preview-main">
+              <div class="preview-heading"><span><small>ASTRION / WORKSPACE</small><b>今日工作状态</b></span><button>＋ 快速记录</button></div>
+              <div class="preview-metrics"><article><small>当前工作区间</small><b>02:18</b><em class="green">专注进行中</em></article><article><small>运行项目</small><b>3</b><em>均运行正常</em></article><article><small>待处理</small><b>4</b><em class="orange">2 项需确认</em></article></div>
+              <article class="preview-pulse"><header><b>工作脉搏</b><small>近 7 天实际活动</small></header><div class="pulse-grid"><svg viewBox="0 0 500 160" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="pulseFill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#8e7bff" stop-opacity=".35"/><stop offset="1" stop-color="#8e7bff" stop-opacity="0"/></linearGradient></defs><path class="pulse-area" d="M0,138 L70,120 L140,128 L210,72 L280,92 L350,42 L420,63 L500,22 L500,160 L0,160Z"/><path class="pulse-line" d="M0,138 L70,120 L140,128 L210,72 L280,92 L350,42 L420,63 L500,22"/></svg></div></article>
+              <div class="preview-flow"><span><i class="violet"></i>Codex 对话</span><b>→</b><span><i class="cyan"></i>项目身份</span><b>→</b><span><i class="green"></i>任务 / 报告 / 知识</span></div>
+            </div>
+            <aside class="preview-rail"><small>工作状态</small><article><i class="green-dot"></i><span><b>scaq-client</b><em>运行正常 · :82</em></span></article><article><i class="violet-dot"></i><span><b>测试执行中</b><em>接口回归 · 68%</em></span></article><article class="preview-alert"><i></i><span><b>1 项异常</b><em>等待人工处理</em></span></article></aside>
+          </div>
+        </div>
+        <div class="preview-caption"><span><i></i> 本地连接正常</span><span>深色指挥中心 · 暖色主题可切换</span></div>
       </div>
     </section>
 
-    <section id="privacy" class="privacy">
-      <div><small>LOCAL FIRST</small><h2>你的工作历史，<br>应该首先属于你自己。</h2><p>任务、报告、知识、测试与统计保存在 Windows 本机 SQLite。扫描 Codex 和 Git 时只读取本地文件，不会在后台自动上传原始对话。</p><ul><li>✓ 无需部署服务器</li><li>✓ API Key 存在凭据库</li><li>✓ 工时明确标记为估算</li><li>✓ 源码公开可审查</li></ul></div>
-      <div class="privacy-console"><header><span>本地数据流</span><em>只在你的电脑</em></header><pre><code>Codex 对话 ─┐<br>Git 提交 ───┼─→ 本地分析 ─→ SQLite<br>任务 / 测试 ┘          │<br>                       ├─ 日报 / 周报<br>                       ├─ 日历 / Token<br>                       └─ 可复用知识</code></pre><footer><i></i> 不需要云端账户</footer></div>
-    </section>
+    <section class="source-strip" aria-label="支持的数据来源"><div class="shell"><span>统一连接</span><ul><li>Codex</li><li>Git</li><li>本地项目</li><li>TAPD</li><li>Jenkins</li><li>Apifox</li><li>测试报告</li></ul><em>所有统计回到同一个项目</em></div></section>
 
-    <section id="screens" class="screens shell">
-      <div class="section-heading"><div><small>INTERFACE</small><h2>B 指挥中心布局，也可以切换暖色</h2></div><p>固定导航、规则卡片和右侧建议区，兼顾信息密度与长时间办公。</p></div>
-      <div class="screen-grid"><button class="screen-card" data-image="assets/dashboard.png" data-alt="工作台首页"><img src="assets/dashboard.png" alt="工作台首页"><span>工作台首页</span></button><button class="screen-card" data-image="assets/calendar.png" data-alt="日历与甘特"><img src="assets/calendar.png" alt="日历与甘特"><span>日历与甘特</span></button><button class="screen-card" data-image="assets/tokens.png" data-alt="Token 分析"><img src="assets/tokens.png" alt="Token 分析"><span>Token 分析</span></button></div>
-    </section>
-
-    <section id="download" class="download shell">
-      <div class="download-intro"><small>DOWNLOAD</small><h2>下载 Windows 版本</h2><p>安装版适合长期使用；便携版无需安装，可放在任意目录运行。两者读取同一份本机数据。</p><div class="system"><span>Windows 10 / 11</span><span>x64</span><span>本地运行</span></div></div>
-      <div class="download-cards">
-        <article class="download-card recommended"><div class="recommend">推荐</div><span class="package-icon">↓</span><h3>安装版</h3><p>创建开始菜单入口，适合日常长期使用。</p><dl><div><dt>版本</dt><dd class="release-version">V1.3.1</dd></div><div><dt>大小</dt><dd id="installerSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="installerHash">读取中</code><button class="copy-hash" data-copy="installerHash">复制</button></dd></div></dl><a id="installerDownload" class="button primary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载安装版</a></article>
-        <article class="download-card"><span class="package-icon">▣</span><h3>便携版</h3><p>无需安装，下载后可直接运行。</p><dl><div><dt>版本</dt><dd class="release-version">V1.3.1</dd></div><div><dt>大小</dt><dd id="portableSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="portableHash">读取中</code><button class="copy-hash" data-copy="portableHash">复制</button></dd></div></dl><a id="portableDownload" class="button secondary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载便携版</a></article>
+    <section id="workflow" class="workflow shell section-space">
+      <header class="section-heading"><div><small>HOW IT WORKS</small><h2>不是又一个待办工具，<br>而是一条完整的个人开发工作流。</h2></div><p>星枢优先读取已经存在的本地证据，再把信息组织成可执行状态。自动化可以帮你整理和推进，但最终决定始终留给你。</p></header>
+      <div class="workflow-grid">
+        <article><span>01</span><div class="workflow-icon">⌁</div><h3>采集真实证据</h3><p>只读扫描 Codex 会话、Git 提交、项目目录、测试和发布记录，不依靠回忆虚构进度。</p><small>Codex · Git · 测试 · 工时</small></article>
+        <article><span>02</span><div class="workflow-icon">◎</div><h3>统一项目身份</h3><p>把改名或迁移后的目录、Codex 对话、Git 仓库与 TAPD 项目映射成同一个规范项目。</p><small>目录 · 别名 · 映射 · 证据链</small></article>
+        <article><span>03</span><div class="workflow-icon">▷</div><h3>从状态直接行动</h3><p>启动项目、处理缺陷、运行测试、查看 Git 差异或触发 Jenkins 发布，都从当前工作现场继续。</p><small>运行 · 测试 · 发布 · 自动队列</small></article>
+        <article><span>04</span><div class="workflow-icon">✓</div><h3>人工确认与复用</h3><p>高风险操作经过确认，完成结果进入报告、日历和知识库，成为下一次可复用的方法。</p><small>确认 · 报告 · 知识 · 复盘</small></article>
       </div>
-      <div class="download-notes"><article><b>首次启动</b><p>程序会扫描当前用户的 Codex 普通与归档会话，历史较多时首次整理需要一些时间。</p></article><article><b>SmartScreen 提示</b><p>当前尚未购买代码签名证书，Windows 可能显示“未知发布者”。请从本页下载并核对 SHA-256。</p></article><article><b>项目测试</b><p>测试中心需要本机存在相应项目。没有 client/APP 项目时列表为空，不影响其他功能。</p></article></div>
-      <p id="releaseStatus" class="release-status">正在读取最新版本信息…</p>
+    </section>
+
+    <section id="capabilities" class="capabilities section-space"><div class="shell">
+      <header class="section-heading compact"><div><small>CAPABILITIES</small><h2>覆盖日常开发，而不是堆满孤立功能。</h2></div><p>功能按实际使用场景归组。每个模块都围绕“看清状态、继续工作、留下证据”设计。</p></header>
+      <div class="bento-grid">
+        <article class="bento-card command-card"><div class="card-index">01</div><span class="card-icon">✦</span><h3>工作状态与驾驶舱</h3><p>首页和右侧状态栏集中显示黄历、当前工时、运行项目、正在执行、异常和最近活动。驾驶舱把关键数据变成可长期展示的屏保。</p><ul><li>炫酷统一加载状态</li><li>快速记录与待处理收件箱</li><li>额度托盘 A / B / C / F 风格</li></ul><div class="mini-dashboard"><i></i><i></i><i></i><span></span></div></article>
+        <article class="bento-card project-card"><div class="card-index">02</div><span class="card-icon">⌘</span><h3>项目资产与 Git</h3><p>扫描、分类、置顶或隐藏本地项目，一键后台启动和停止。查看分支、提交历史与准确差异，完成拉取、合并、回退、提交和推送。</p><ul><li>只分析已暂存文件</li><li>AI 生成中文提交建议</li><li>退出前停止工作台启动的项目</li></ul></article>
+        <article class="bento-card delivery-card"><div class="card-index">03</div><span class="card-icon">↗</span><h3>测试、接口与发布</h3><p>按项目运行静态、接口和浏览器测试，保留截图与 PDF/Markdown 报告。接口文档统一管理 Apifox 项目；发布中心专注 Jenkins 项目、分支和实时进度。</p><div class="status-steps"><span class="done">选择项目</span><i></i><span class="done">执行验证</span><i></i><span>人工发布</span></div></article>
+        <article class="bento-card tapd-card"><div class="card-index">04</div><span class="card-icon">T</span><h3>TAPD 缺陷与自动处理</h3><p>支持多个 TAPD 项目，只同步指定负责人名下的缺陷。规则、队列和执行状态按项目隔离，同一工作区串行处理。</p><ul><li>发送 Codex 前可补充说明</li><li>继续修改时保留人工反馈</li><li>确认归档后才回写已解决</li></ul></article>
+        <article class="bento-card history-card"><div class="card-index">05</div><span class="card-icon">◫</span><h3>任务、日历与工作历史</h3><p>任务、甘特、黄历、报告、Token、估算工时和知识库共享同一套项目口径。从今天的执行一直追溯到历史方案。</p><div class="history-tags"><span>工作记录</span><span>日 / 周 / 月报告</span><span>Token 分析</span><span>知识复用</span></div></article>
+        <article class="bento-card content-card"><div class="card-index">06</div><span class="card-icon">▶</span><h3>内容与视频生产</h3><p>可选的 VIP 本地模块用于整理科技、推理与逻辑选题，跟踪脚本、配音、封面、成片和发布文案的交付完整性。</p><small class="optional-label">可选模块 · 不影响核心开发工作流</small></article>
+      </div>
+    </div></section>
+
+    <section id="local-first" class="local-first shell section-space">
+      <div class="security-copy"><small>LOCAL FIRST & HUMAN CONTROL</small><h2>自动化可以积极，<br>权限边界必须保守。</h2><p>工作台不要求部署服务端。工作记录、项目映射、报告和知识默认保存在 Windows 本机；令牌和密码交给 Windows 凭据管理器保存。</p><div class="security-list"><article><i>01</i><span><b>原始数据留在本机</b><small>SQLite 本地存储，Codex 与 Git 扫描默认只读。</small></span></article><article><i>02</i><span><b>秘密信息不进入数据库</b><small>TAPD、Git、邮箱和 API 凭据使用系统凭据库。</small></span></article><article><i>03</i><span><b>危险操作由人决定</b><small>提交、推送、缺陷回写和真实测试不会静默执行。</small></span></article><article><i>04</i><span><b>升级前保护本地数据</b><small>自动备份并只保留最近 10 条内部可用备份。</small></span></article></div></div>
+      <div class="local-diagram" aria-label="本地数据流示意"><header><span><i></i> LOCAL WORKSPACE</span><em>本机闭环</em></header><div class="diagram-sources"><span>Codex</span><span>Git</span><span>项目目录</span><span>任务 / 测试</span></div><div class="diagram-arrow"><i></i><b>只读取完成当前功能所需的信息</b><i></i></div><div class="diagram-core"><span>✦</span><div><small>ASTRION CORE</small><b>本地分析与项目映射</b></div></div><div class="diagram-arrow"><i></i><b>生成可审查的本地结果</b><i></i></div><div class="diagram-results"><span>工作状态</span><span>报告</span><span>知识</span><span>执行队列</span></div><footer><span><i></i> SQLite</span><span><i></i> Credential Manager</span><span><i></i> Human Review</span></footer></div>
+    </section>
+
+    <section class="fit-section section-space"><div class="shell fit-grid"><div><small>BUILT FOR</small><h2>适合希望掌控自己工作上下文的开发者。</h2></div><article><b>✓ 适合</b><p>日常使用 Codex 和多个本地 Git 项目，希望把任务、测试、发布、缺陷与复盘放到同一个桌面工作区。</p></article><article><b>— 不替代</b><p>它不是团队级项目管理平台，也不替代 Git、TAPD、Jenkins 或 Apifox；它负责把这些工具连接成你的个人工作现场。</p></article></div></section>
+
+    <section id="download" class="download shell section-space">
+      <header class="download-heading"><div><small>DOWNLOAD</small><h2>把工作上下文留在自己的电脑。</h2><p id="releaseNotes">正在读取最新版本说明…</p></div><div class="version-chip"><span>最新稳定版</span><b class="release-version">读取中</b><small id="publishedDate">Windows 10 / 11 · x64</small></div></header>
+      <div class="download-grid">
+        <article class="download-card recommended"><div class="recommend">推荐日常使用</div><header><span class="package-icon">↓</span><div><small>WINDOWS INSTALLER</small><h3>安装版</h3></div></header><p>创建开始菜单入口并支持应用内一键更新，适合长期使用。</p><dl><div><dt>版本</dt><dd class="release-version">读取中</dd></div><div><dt>文件大小</dt><dd id="installerSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="installerHash">读取中</code><button class="copy-hash" type="button" data-copy="installerHash">复制</button></dd></div></dl><a id="installerDownload" class="button primary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载安装版 <span>→</span></a></article>
+        <article class="download-card"><header><span class="package-icon portable">▣</span><div><small>PORTABLE EXECUTABLE</small><h3>便携版</h3></div></header><p>无需安装，下载后直接运行；与安装版读取同一份本机数据。</p><dl><div><dt>版本</dt><dd class="release-version">读取中</dd></div><div><dt>文件大小</dt><dd id="portableSize">读取中</dd></div><div><dt>SHA-256</dt><dd><code id="portableHash">读取中</code><button class="copy-hash" type="button" data-copy="portableHash">复制</button></dd></div></dl><a id="portableDownload" class="button secondary" href="https://github.com/kange666/ai-personal-workbench-download/releases">下载便携版 <span>→</span></a></article>
+      </div>
+      <div class="download-help"><article><span>01</span><div><b>首次启动</b><p>首次扫描本机 Codex 历史和项目时可能需要一些时间，页面会显示加载状态，不会把“读取中”误报为空数据。</p></div></article><article><span>02</span><div><b>Windows 提示</b><p>当前未购买商业代码签名证书，SmartScreen 可能显示“未知发布者”。请只从本页下载并核对 SHA-256。</p></div></article><article><span>03</span><div><b>数据与更新</b><p>安装版和便携版共享应用数据目录；一键更新前会先创建本地备份，失败不会替换当前版本和数据。</p></div></article></div>
+      <p id="releaseStatus" class="release-status" aria-live="polite">正在读取最新版本信息…</p>
     </section>
   </main>
 
-  <footer><div class="brand"><span>AI</span><b>个人工作台</b></div><p>本地优先的个人 Codex 工作管理工具</p><div><a href="https://github.com/kange666/ai-personal-workbench">源代码</a><a href="https://github.com/kange666/ai-personal-workbench-download/releases">历史版本</a><a href="#privacy">隐私说明</a></div></footer>
-  <dialog id="imageDialog"><button id="closeDialog" aria-label="关闭">×</button><img id="dialogImage" alt="界面预览大图"></dialog>
+  <footer class="site-footer"><div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name"><b>星枢工作台</b><small>ASTRION</small></span></div><p>一个整合项目、知识、自动化和工作状态的个人数字空间。</p><div><a href="https://github.com/kange666/ai-personal-workbench" target="_blank" rel="noreferrer">源代码</a><a href="https://github.com/kange666/ai-personal-workbench-download/releases" target="_blank" rel="noreferrer">历史版本</a><a href="#local-first">安全说明</a></div></footer>
   <script src="release.js"></script>
 </body>
 </html>
