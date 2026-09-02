@@ -1,29 +1,29 @@
 {
-  "version": "1.8.9",
-  "notes": "完善 Jenkins 发布防重复执行、驾驶舱状态与屏保、菜单显隐、工作日历标签展示，并优化本地备份保护。",
-  "pub_date": "2026-09-01T09:37:18Z",
-  "publishedAt": "2026-09-01T09:37:18Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.8.9",
-  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "fcafb0c30327ee33e411235c6340b71ef3e3fdd2",
-  "installer": {
-    "name": "AI-Personal-Workbench-V1.8.9-Installer.exe",
-    "sizeBytes": 7017924,
-    "sizeText": "6.69 MB",
-    "sha256": "762F521F69134FE9FAEC1A62580762BD44419D63DA9FECA90671A543DAD93783",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.9/AI-Personal-Workbench-V1.8.9-Installer.exe"
-  },
-  "portable": {
-    "name": "AI-Personal-Workbench-V1.8.9-Portable.exe",
-    "sizeBytes": 24605184,
-    "sizeText": "23.47 MB",
-    "sha256": "5BE4F7938B02CCBCAE5BC960AD587F620127608CA41A3BEF7014386D8D93B089",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.9/AI-Personal-Workbench-V1.8.9-Portable.exe"
-  },
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2dNaG9scmdJa2xsRjhRYVlGRUxrbnBWTFEvU2sycE9UckxScnZqenlGbkJOeGZ4Q1hRNFVFdlVXRW1SamZMejVOTUM3Nmw3b2JENGZJQ0RpejBOUEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjU1NDMzCWZpbGU6QUkg5Liq5Lq65bel5L2c5Y+wXzEuOC45X3g2NC1zZXR1cC5leGUKcTRlOXlkdms4M0FlYjhJNVBKbVNmQm15YTY1ZmplQzFobWxRYy9GeFp3YlZaalI5Z3dBL2xZeWtyUGxzeGt2bDFCNjhsbld3Q1R0Rm96NkY1WE0wQVE9PQo=",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.8.9/AI-Personal-Workbench-V1.8.9-Installer.exe"
-    }
-  }
+    "version":  "1.9.0",
+    "notes":  "星枢工作台 V1.9.0：新增科技感数据驾驶舱与屏保交互，强化实时额度、消息通知和运行状态；完善项目、发布、接口文档、测试与收件箱工作流，并提升稳定性。",
+    "pub_date":  "2026-09-02T04:03:31Z",
+    "publishedAt":  "2026-09-02T04:03:31Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.0",
+    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
+    "sourceCommit":  "57b15cdd6889184863978c84876b7ee6f38c57c7",
+    "installer":  {
+                      "name":  "AI-Personal-Workbench-V1.9.0-Installer.exe",
+                      "sizeBytes":  7055381,
+                      "sizeText":  "6.73 MB",
+                      "sha256":  "ACE2E85AC140318A07741DA3F811E27EFFE5DDBCAA418B9DF257A76DF88739A4",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.0/AI-Personal-Workbench-V1.9.0-Installer.exe"
+                  },
+    "portable":  {
+                     "name":  "AI-Personal-Workbench-V1.9.0-Portable.exe",
+                     "sizeBytes":  24750592,
+                     "sizeText":  "23.60 MB",
+                     "sha256":  "98FD6E7420C3275DBB637CDC85AED95BD7949ACD0DE5E42571F7ACA18A078889",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.0/AI-Personal-Workbench-V1.9.0-Portable.exe"
+                 },
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d21mSC90eHhNVUJ1bDhZUjYvMjhGOEJmaElrQzVvWVBqTHFwL0pjeG9NbXZvdEo5elNoTDZzeXpUVGJINEhBaENQRXFpNkhoblRhcjhDa0M2OUdpRUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzIxODA0CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4wX3g2NC1zZXR1cC5leGUKcjNGWHBRWHAwaDVKVGdNQzcxcE5hbUEwc2pkdlRpN3R1OWh5TlVhWUROdDNObndQejBqSFo2ajBKU3hPMVNUb2R0aklDZ0w3aUF3Q1BYcUFrcStMQWc9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.0/AI-Personal-Workbench-V1.9.0-Installer.exe"
+                                         }
+                  }
 }
