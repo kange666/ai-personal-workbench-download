@@ -1,16 +1,16 @@
-# 星枢工作台 ASTRION V1.9.3
+# 星枢工作台 ASTRION V1.9.4
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.3/AI-Personal-Workbench-V1.9.3-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.3/AI-Personal-Workbench-V1.9.3-Portable.exe)
-- [查看 V1.9.3 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.3)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Portable.exe)
+- [查看 V1.9.4 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.4)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.3 完成品牌原地迁移：安装器和 Windows 应用名称改为“星枢工作台”，一键更新继续覆盖原有“AI 个人工作台”安装目录，并将已有开始菜单和桌面快捷方式原地改名，不生成重复入口。同时优化托盘额度数字与环形进度，以及数据驾驶舱的趋势、热力、实时动态和空闲状态展示。
+V1.9.4 修复驾驶舱返回工作台卡顿：活动统计改为后台执行，复用 90 天数据并避免关闭后更新。消息通知显示最新 5 条未读消息，默认统计维度为今日，周期切换增加加载反馈。同时优化启动加载、项目运行状态持久化、测试中心缓存与托盘图标显示；保留原有安装目录和本地数据保护机制。
 
 ## 核心工作流
 

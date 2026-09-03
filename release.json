@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.3",
-    "notes":  "修复品牌迁移：安装器和 Windows 应用名称正式改为星枢工作台，一键更新继续沿用原 AI 个人工作台安装目录，并将已有开始菜单与桌面快捷方式原地改名，不生成重复入口；优化托盘系统字体与环形进度显示；升级数据驾驶舱的工作脉搏、90 天热力、实时动态、消息标签和系统空闲状态。",
-    "pub_date":  "2026-09-02T08:42:36Z",
-    "publishedAt":  "2026-09-02T08:42:36Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.3",
+    "version":  "1.9.4",
+    "notes":  "修复驾驶舱返回工作台卡顿：活动统计改为后台执行，复用 90 天数据并避免关闭后更新；消息展示最新 5 条未读，默认今日，周期切换增加加载反馈；优化启动加载、项目运行状态持久化、测试中心缓存与托盘图标显示。",
+    "pub_date":  "2026-09-03T01:36:14Z",
+    "publishedAt":  "2026-09-03T01:36:14Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.4",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "ef98f6423522fc8112736082905c439e9b267bc0",
+    "sourceCommit":  "22e6111637acc9bfd48fa082ccb9749dbeb9e61b",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.3-Installer.exe",
-                      "sizeBytes":  7104131,
-                      "sizeText":  "6.78 MB",
-                      "sha256":  "244E8C1D7E972ED5C4BDCC9317FE09A4CF44C1A89B0AE30182ACF84D603EE6EB",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.3/AI-Personal-Workbench-V1.9.3-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V1.9.4-Installer.exe",
+                      "sizeBytes":  7115396,
+                      "sizeText":  "6.79 MB",
+                      "sha256":  "8194630336541B9138011CB5D9C0C1A257B060A9314F5152A521562451F60B7C",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.3-Portable.exe",
-                     "sizeBytes":  24846848,
-                     "sizeText":  "23.70 MB",
-                     "sha256":  "FFB7EE1CDE914927FEFA1B40B14426E9E5561DCD1AFC58893251A115F0D6FC30",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.3/AI-Personal-Workbench-V1.9.3-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V1.9.4-Portable.exe",
+                     "sizeBytes":  24875520,
+                     "sizeText":  "23.72 MB",
+                     "sha256":  "08240182C2212C304E9A9B2905D3434C2EEB2BB074AB31B97CF5B5B97C7152D3",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d213UEFHeTBHc1VsMmpQMGhwbE00ZTFEZTN2Qzl4RDNqTjRUZFhMYjBuOVJVS3FSYXphSHRFdFRXZXBDd3dBU3RFZkN0djR5VzR1Y0dEazZJTXcxc1E0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzM4NTUwCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4zX3g2NC1zZXR1cC5leGUKR2QwRVNRYnFwTDNsTWtPay9lR0ZtOFVpeGhIS25YT1RlM1k5aE1pWVVwYnZFSmltTFh4VkJXWjlLU2tQZ3N3bGxJemhZdFpxOTdKcXhpRkErZFhQQ3c9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.3/AI-Personal-Workbench-V1.9.3-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2hNRTg5ZHVpc0hubStNVkk3bHpTSm9rWE9uVFd6MklRR056eVZjcUdNdGF4SHAyWm5HVWo5WXo0L0FJTTZRVzBwZ1ZhNVBnZFR1MlU1NmoveTU0ZHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mzk5MzY5CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS40X3g2NC1zZXR1cC5leGUKVmlLb2tpVnRtSXAvMUVjZ2Q3TlRtOTR5WC9kd1lsMzNpalRhTE5lWDFOd1JtcDg4T3JBS3cyY1VmMFhUOExhM3lMeXpqRXJVd1krNG55dDlvWVp1QlE9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Installer.exe"
                                          }
                   }
 }
