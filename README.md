@@ -1,16 +1,16 @@
-# 星枢工作台 ASTRION V1.9.4
+# 星枢 ASTRION V1.9.5
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.4/AI-Personal-Workbench-V1.9.4-Portable.exe)
-- [查看 V1.9.4 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.4)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Portable.exe)
+- [查看 V1.9.5 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.5)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.4 修复驾驶舱返回工作台卡顿：活动统计改为后台执行，复用 90 天数据并避免关闭后更新。消息通知显示最新 5 条未读消息，默认统计维度为今日，周期切换增加加载反馈。同时优化启动加载、项目运行状态持久化、测试中心缓存与托盘图标显示；保留原有安装目录和本地数据保护机制。
+V1.9.5 统一应用内“星枢 ASTRION”双语品牌字标；修复添加 Apifox 项目后重启异常、Windows 任务栏图标缺失及图标白角。设置入口新增版本提示，后台检查更新不阻塞窗口；翻译支持命名格式复制与报错中文解读；项目列表支持打开 VS Code 和安全切换本地分支；托盘新增纯数字、浅色数字、电量条、分段柱样式。原有安装目录、安装兼容名称和本地数据保护机制不变。
 
 ## 核心工作流
 
@@ -24,14 +24,15 @@ V1.9.4 修复驾驶舱返回工作台卡顿：活动统计改为后台执行，�
 - 工作台、右侧工作状态栏、数据驾驶舱和屏保模式。
 - 快速记录、待处理收件箱、每日/每周/项目任务、日历、甘特和黄历。
 - 工作记录、日/周/月报告、Token 分析、通用 Codex 剩余额度、估算工时和知识库。
-- 项目扫描、分类、置顶、隐藏恢复、项目身份映射、一键后台启动与停止。
+- 项目扫描、分类、置顶、隐藏恢复、项目身份映射、一键后台启动与停止、打开 VS Code；工作区干净时可从列表切换本地分支。
 - Git 状态、差异、分支、历史、暂存、拉取、合并、回退、提交和推送；AI 只根据已暂存差异生成中文提交建议。
 - 测试中心按项目保存静态、接口和浏览器证据，支持截图以及 PDF/Markdown 报告。
 - 接口文档中心管理多个 Apifox 项目、树形检索、收藏、代码复制和请求预览。
 - 发布中心选择 Jenkins 项目与已配置分支，查看队列、构建进度和结果通知。
 - TAPD 支持多个项目，只同步指定负责人名下的缺陷；自动规则、队列和执行按项目隔离，人工确认后才回写已解决。
 - 可选的内容工坊与视频中心，用于跟踪选题、脚本、配音、封面、成片和发布资料。
-- 设置支持主题、菜单顺序和显隐、托盘额度数字 A/B/C/F 风格、邮件提醒、外部服务及本地备份。
+- 中英翻译支持短语命名格式复制，报错翻译提供中文含义、可能原因与排查建议，不自动执行操作。
+- 设置支持主题、菜单顺序和显隐、八种托盘额度风格、邮件提醒、外部服务及本地备份；发现新版本时设置入口显示提示。
 
 ## 本地优先与安全边界
 
