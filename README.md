@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.5
+# 星枢 ASTRION V1.9.6
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Portable.exe)
-- [查看 V1.9.5 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.5)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Portable.exe)
+- [查看 V1.9.6 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.6)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.5 统一应用内“星枢 ASTRION”双语品牌字标；修复添加 Apifox 项目后重启异常、Windows 任务栏图标缺失及图标白角。设置入口新增版本提示，后台检查更新不阻塞窗口；翻译支持命名格式复制与报错中文解读；项目列表支持打开 VS Code 和安全切换本地分支；托盘新增纯数字、浅色数字、电量条、分段柱样式。原有安装目录、安装兼容名称和本地数据保护机制不变。
+V1.9.6 重新设计暖色主题右上角 Logo，并在深色与暖色主题间自动切换；完成四档字号和多种窗口尺寸下的全局样式适配，修复超大字号时卡片、弹窗、抽屉、表格及操作区的溢出、间距和可读性问题，同时统一暖色主题的字体、图标、卡片和图表色彩。原有安装目录、安装兼容名称和本地数据保护机制不变。
 
 ## 核心工作流
 

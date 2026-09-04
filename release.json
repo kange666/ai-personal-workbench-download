@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.5",
-    "notes":  "统一星枢 ASTRION 双语字标；修复 Apifox 项目重启异常、任务栏图标缺失和图标白角；新增设置版本提示、报错中文解读与命名格式复制；优化项目列表并支持打开 VS Code、安全切换本地分支；托盘扩展为八种样式。保留原安装目录和本地数据。",
-    "pub_date":  "2026-09-03T05:17:55Z",
-    "publishedAt":  "2026-09-03T05:17:55Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.5",
+    "version":  "1.9.6",
+    "notes":  "重新设计暖色主题右上角 Logo，并随主题自动切换；完成深色与暖色主题在四档字号及多视口下的全局样式适配，修复超大字号下卡片、弹窗、抽屉、表格和操作区的溢出、间距与可读性问题，完善暖色主题字体、图标、卡片及图表色彩。保留原安装目录和本地数据。",
+    "pub_date":  "2026-09-04T05:23:35Z",
+    "publishedAt":  "2026-09-04T05:23:35Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.6",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "9031af466a62346a72c98e72ce6ad397ecc61efb",
+    "sourceCommit":  "a225c7a82b8874e037eee14051f12d39dcf2b85e",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.5-Installer.exe",
-                      "sizeBytes":  7443307,
-                      "sizeText":  "7.10 MB",
-                      "sha256":  "551CFC6801F87962DBA025057D81EEF1A4C0EF8995002A960AB348DF17E7D3D2",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V1.9.6-Installer.exe",
+                      "sizeBytes":  8351643,
+                      "sizeText":  "7.96 MB",
+                      "sha256":  "7EB66A77FB039169EF835846DAD817DE83F2BEB53355FE614AD35AF7EC877829",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.5-Portable.exe",
-                     "sizeBytes":  25311232,
-                     "sizeText":  "24.14 MB",
-                     "sha256":  "DE896C4F8873228018E6DE17222CF8E33E23ABBE3A38A977C3727CFF93F50EF9",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V1.9.6-Portable.exe",
+                     "sizeBytes":  26204160,
+                     "sizeText":  "24.99 MB",
+                     "sha256":  "59251BE42151A251C434521E77CDAB856CAF2F9A47335FF2BBA7B8412502EC24",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3NkKzVxczNacmppeFlpcTVNYlV5bUp0a1ljd2hMdDNROUc5eU05emZIbm5JUDljZjVIVlg4eDRBT0pNcmV1dkVZbDNsZDcrRDJNdlhObVFqRExBalEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDEyNjcwCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS41X3g2NC1zZXR1cC5leGUKTUZ3bnRYMlU3SkhISGYwTEhSbEV2RDFxb3lVS1YzRUllMUhQODRiaFQ3KzlmZE5ZRi8zbGFCd1NNSFFwNmQ4RXVneHdITmZBVjc0bWZWcFBnam5hRHc9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.5/AI-Personal-Workbench-V1.9.5-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2xrVlZqcUdpWWkwT3ZSOGxlekJLOFQwQ1gzZlVrUGZ5a0VMOWJmU04rSzNRNzl0SWZWcmV2aFZUTVV5L2tCVW9Fd3R3bHBqZEZDRlZrZGx2NjFXbmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NDk5NDExCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS42X3g2NC1zZXR1cC5leGUKNEwySkNZLzZUN2hKcFJIM2FWV0YwdnNSL3RCeHZvZ0RMREF6NDNLQ2FQUy9KdlhKQjk3ZE52OXJMV2NZNnVmL0k0VURFSEovc0hPUnA4RjBqbkJxQWc9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Installer.exe"
                                          }
                   }
 }
