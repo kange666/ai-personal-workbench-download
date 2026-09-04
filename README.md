@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.6
+# 星枢 ASTRION V1.9.8
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.6/AI-Personal-Workbench-V1.9.6-Portable.exe)
-- [查看 V1.9.6 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.6)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.8/AI-Personal-Workbench-V1.9.8-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.8/AI-Personal-Workbench-V1.9.8-Portable.exe)
+- [查看 V1.9.8 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.8)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.6 重新设计暖色主题右上角 Logo，并在深色与暖色主题间自动切换；完成四档字号和多种窗口尺寸下的全局样式适配，修复超大字号时卡片、弹窗、抽屉、表格及操作区的溢出、间距和可读性问题，同时统一暖色主题的字体、图标、卡片和图表色彩。原有安装目录、安装兼容名称和本地数据保护机制不变。
+V1.9.8 优化接口文档中心的 Apifox 项目切换与双栏布局，修复大字号下详情区域被压缩和出现空白列的问题；测试中心增加生成任务持续跟踪、失败原因分析、排查建议和完整技术详情；报告 AI 总结改为独立保存展示，不再覆盖原报告，同时继续完善大字号界面的文案和交互细节。
 
 ## 核心工作流
 
@@ -27,7 +27,7 @@ V1.9.6 重新设计暖色主题右上角 Logo，并在深色与暖色主题间�
 - 项目扫描、分类、置顶、隐藏恢复、项目身份映射、一键后台启动与停止、打开 VS Code；工作区干净时可从列表切换本地分支。
 - Git 状态、差异、分支、历史、暂存、拉取、合并、回退、提交和推送；AI 只根据已暂存差异生成中文提交建议。
 - 测试中心按项目保存静态、接口和浏览器证据，支持截图以及 PDF/Markdown 报告。
-- 接口文档中心管理多个 Apifox 项目、树形检索、收藏、代码复制和请求预览。
+- 接口文档中心管理多个 Apifox 项目，支持项目下拉切换、树形检索、代码复制和请求预览。
 - 发布中心选择 Jenkins 项目与已配置分支，查看队列、构建进度和结果通知。
 - TAPD 支持多个项目，只同步指定负责人名下的缺陷；自动规则、队列和执行按项目隔离，人工确认后才回写已解决。
 - 可选的内容工坊与视频中心，用于跟踪选题、脚本、配音、封面、成片和发布资料。
