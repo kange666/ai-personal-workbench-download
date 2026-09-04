@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.8
+# 星枢 ASTRION V1.9.9
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.8/AI-Personal-Workbench-V1.9.8-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.8/AI-Personal-Workbench-V1.9.8-Portable.exe)
-- [查看 V1.9.8 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.8)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.9/AI-Personal-Workbench-V1.9.9-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.9/AI-Personal-Workbench-V1.9.9-Portable.exe)
+- [查看 V1.9.9 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.9)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.8 优化接口文档中心的 Apifox 项目切换与双栏布局，修复大字号下详情区域被压缩和出现空白列的问题；测试中心增加生成任务持续跟踪、失败原因分析、排查建议和完整技术详情；报告 AI 总结改为独立保存展示，不再覆盖原报告，同时继续完善大字号界面的文案和交互细节。
+V1.9.9 完善小窗口与大字号布局，修复 TAPD、知识库、测试报告和视频中心的长文本容纳；增加隔离桌面审查模式，避免样式验收影响真实数据。
 
 ## 核心工作流
 
