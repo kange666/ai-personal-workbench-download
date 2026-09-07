@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.10",
-    "notes":  "优化外观与侧边栏布局，新增纯数字浅色托盘样式并调整圆环进度显示；仅对项目内 Codex 对话发送完成通知和邮件；优化 Token 分析中的最高会话占比展示。",
-    "pub_date":  "2026-09-07T02:15:59Z",
-    "publishedAt":  "2026-09-07T02:15:59Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.10",
+    "version":  "1.9.11",
+    "notes":  "重构设置页面为分类导航布局，将字号移入外观并合并功能、版本与数据备份；新增默认开启的工作台消息通知开关；优化右侧工作状态栏层级与间距，运行地址支持默认浏览器打开；修复 Git 操作后项目列表状态刷新。",
+    "pub_date":  "2026-09-07T05:23:52Z",
+    "publishedAt":  "2026-09-07T05:23:52Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.11",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "8ca768b57a5dbb4d350ad0e8fa2d8fa4ecc67451",
+    "sourceCommit":  "c31f9f2d95a04b9ee20c526100049c9bad6bf4b8",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.10-Installer.exe",
-                      "sizeBytes":  8376569,
+                      "name":  "AI-Personal-Workbench-V1.9.11-Installer.exe",
+                      "sizeBytes":  8379496,
                       "sizeText":  "7.99 MB",
-                      "sha256":  "25950B008145AF9F57D37767DC47CD157F3B7542B95EC370EA443D09BA1E81AE",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.10/AI-Personal-Workbench-V1.9.10-Installer.exe"
+                      "sha256":  "EE11CF05E8E931D81068E12DD5F5944EFD3D7B60B4CEA2C50393D9023166BD84",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.10-Portable.exe",
-                     "sizeBytes":  26461696,
+                     "name":  "AI-Personal-Workbench-V1.9.11-Portable.exe",
+                     "sizeBytes":  26465792,
                      "sizeText":  "25.24 MB",
-                     "sha256":  "3B52D0B5981D00AE5F52A65B69124D45DA87B17D61F935AC8C1B7C5ACE61BFEC",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.10/AI-Personal-Workbench-V1.9.10-Portable.exe"
+                     "sha256":  "A90CE4CB3C00B0B771931DCCC3090AA807C874BB9B83C71D3C54F37772E5A01C",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d250ZFNObmNHMUVlN1J0VU9sWGxKRmowaUVqRXc5dDFvUVJ5bWw4c25YVUt5UnBYaFIrKzZhQmZsTC92TG02R2QvcVFjUVBQeGE3MnAzU1dKZ09WeHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzQ3MzUzCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xMF94NjQtc2V0dXAuZXhlCnlCUUJOL1lRSFNPL2NVdVpua3pDMlVSTS9sS2RhRDMwZDhvczhCRVprRDlieFM1T3hmaVlLV2s4VWNTV1ZvK1gvcEZHV2Y0NkVWaldsR3hCZUVQMUF3PT0K",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.10/AI-Personal-Workbench-V1.9.10-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d24rT0NSRkd1U09ILzZDbXRnNFVTcDV1aGh2SE41bzVnUmEvOEREaUM4L1NtVkhBYVMyUjVITnNub2l5Q0h3bmlqUWE0b2NrNzVUaVphZHhZZDBnQUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzU4NjI3CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xMV94NjQtc2V0dXAuZXhlCnNsMHpLNDU4R1ljVU5nekJNMnpHNFBHV0taZHNmLzNUanlTdk9KazBVNUZjOEJkK3E2a2VnOFQ1ZmNocTIrYm8yZmxoU3dTblFLRVZYWXNBeWNsNkR3PT0K",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe"
                                          }
                   }
 }

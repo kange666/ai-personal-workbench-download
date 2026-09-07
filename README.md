@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.10
+# 星枢 ASTRION V1.9.11
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.10/AI-Personal-Workbench-V1.9.10-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.10/AI-Personal-Workbench-V1.9.10-Portable.exe)
-- [查看 V1.9.10 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.10)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Portable.exe)
+- [查看 V1.9.11 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.11)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.10 优化外观与侧边栏布局，新增纯数字浅色托盘样式并调整圆环进度显示；仅对项目内 Codex 对话发送完成通知和邮件；优化 Token 分析中的最高会话占比展示。
+V1.9.11 重构设置页分类布局，将字号移入外观并合并功能、版本与数据备份；新增工作台消息通知开关；优化右侧工作状态栏，并修复 Git 操作后的项目状态刷新。
 
 ## 核心工作流
 
@@ -32,7 +32,7 @@ V1.9.10 优化外观与侧边栏布局，新增纯数字浅色托盘样式并调
 - TAPD 支持多个项目，只同步指定负责人名下的缺陷；自动规则、队列和执行按项目隔离，人工确认后才回写已解决。
 - 可选的内容工坊与视频中心，用于跟踪选题、脚本、配音、封面、成片和发布资料。
 - 中英翻译支持短语命名格式复制，报错翻译提供中文含义、可能原因与排查建议，不自动执行操作。
-- 设置支持主题、菜单顺序和显隐、八种托盘额度风格、邮件提醒、外部服务及本地备份；发现新版本时设置入口显示提示。
+- 设置支持主题、四档字号、菜单顺序和显隐、八种托盘额度风格、工作台消息与邮件提醒、外部服务及本地备份；发现新版本时设置入口显示提示。
 
 ## 本地优先与安全边界
 
