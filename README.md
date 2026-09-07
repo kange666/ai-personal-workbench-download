@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.11
+# 星枢 ASTRION V1.9.12
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Portable.exe)
-- [查看 V1.9.11 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.11)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.12/AI-Personal-Workbench-V1.9.12-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.12/AI-Personal-Workbench-V1.9.12-Portable.exe)
+- [查看 V1.9.12 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.12)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.11 重构设置页分类布局，将字号移入外观并合并功能、版本与数据备份；新增工作台消息通知开关；优化右侧工作状态栏，并修复 Git 操作后的项目状态刷新。
+V1.9.12 新增本机实时性能监测，在侧边栏和数据驾驶舱展示 CPU、内存、磁盘、网络及双显卡信息，支持详情趋势和安全内存优化；同时清理待处理收件箱中的终端颜色控制符并优化操作按钮布局。
 
 ## 核心工作流
 

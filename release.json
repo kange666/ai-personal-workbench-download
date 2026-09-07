@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.11",
-    "notes":  "重构设置页面为分类导航布局，将字号移入外观并合并功能、版本与数据备份；新增默认开启的工作台消息通知开关；优化右侧工作状态栏层级与间距，运行地址支持默认浏览器打开；修复 Git 操作后项目列表状态刷新。",
-    "pub_date":  "2026-09-07T05:23:52Z",
-    "publishedAt":  "2026-09-07T05:23:52Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.11",
+    "version":  "1.9.12",
+    "notes":  "新增本机 CPU、内存、磁盘、网络及双显卡实时性能监测，在侧边栏和数据驾驶舱展示趋势，并提供详情弹窗与仅释放星枢进程工作集的安全内存优化；清理待处理收件箱中的终端颜色控制符并优化操作按钮布局。",
+    "pub_date":  "2026-09-07T11:04:28Z",
+    "publishedAt":  "2026-09-07T11:04:28Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.12",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "c31f9f2d95a04b9ee20c526100049c9bad6bf4b8",
+    "sourceCommit":  "44e02f9111b5f913229d58b4366684a7702a9ccf",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.11-Installer.exe",
-                      "sizeBytes":  8379496,
-                      "sizeText":  "7.99 MB",
-                      "sha256":  "EE11CF05E8E931D81068E12DD5F5944EFD3D7B60B4CEA2C50393D9023166BD84",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V1.9.12-Installer.exe",
+                      "sizeBytes":  8392476,
+                      "sizeText":  "8.00 MB",
+                      "sha256":  "D4EDA9BF0702F8A8DCBFBF2B218D4D627A1A5448319E0B6D0603370EE7D4895D",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.12/AI-Personal-Workbench-V1.9.12-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.11-Portable.exe",
-                     "sizeBytes":  26465792,
-                     "sizeText":  "25.24 MB",
-                     "sha256":  "A90CE4CB3C00B0B771931DCCC3090AA807C874BB9B83C71D3C54F37772E5A01C",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V1.9.12-Portable.exe",
+                     "sizeBytes":  26455040,
+                     "sizeText":  "25.23 MB",
+                     "sha256":  "5F855CABFCD34073078ADF4C13498C86EDC80F1CEAB05F7937DFFA4CBAD77A55",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.12/AI-Personal-Workbench-V1.9.12-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d24rT0NSRkd1U09ILzZDbXRnNFVTcDV1aGh2SE41bzVnUmEvOEREaUM4L1NtVkhBYVMyUjVITnNub2l5Q0h3bmlqUWE0b2NrNzVUaVphZHhZZDBnQUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzU4NjI3CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xMV94NjQtc2V0dXAuZXhlCnNsMHpLNDU4R1ljVU5nekJNMnpHNFBHV0taZHNmLzNUanlTdk9KazBVNUZjOEJkK3E2a2VnOFQ1ZmNocTIrYm8yZmxoU3dTblFLRVZYWXNBeWNsNkR3PT0K",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.11/AI-Personal-Workbench-V1.9.11-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2tVU0hVeDRzTEtCWVh6YUJHU083bzlOSkxsNTI4TEJyNHRWZzZITEtja1pFTGI1WGtLR0xjOWxIRlVMajBuZGdlenZRd2pRbThEalR6M0k0akFjbUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Nzc5MDY0CWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xMl94NjQtc2V0dXAuZXhlCnF1anU5cmZxSTVpWnZXKzZaZCtqTDRITmNlR0FWOEo1czUyU3BMd1E4L0RxNGpONlR6a2NEZ0VOMVZ4S2NIL2pLS2kwVzhiT2NBUWsyVTBZMzBqRkJBPT0K",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.12/AI-Personal-Workbench-V1.9.12-Installer.exe"
                                          }
                   }
 }
