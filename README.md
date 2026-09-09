@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.13
+# 星枢 ASTRION V1.9.14
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.13/AI-Personal-Workbench-V1.9.13-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.13/AI-Personal-Workbench-V1.9.13-Portable.exe)
-- [查看 V1.9.13 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.13)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Portable.exe)
+- [查看 V1.9.14 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.14)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.13 将侧边栏性能卡的网络项精简为仅显示下载速度；自动任务与静默 Heartbeat 不再触发工作台消息或完成邮件；同时移除右侧栏重复的“工作状态”标题并同步调整通知设置说明。
+V1.9.14 修复开机自启时可能出现两个工作台实例的问题，并在升级时清理旧启动项；项目资产提交支持直接填写提交信息，AI 建议只追加修改明细；同时优化独显显存进度显示。
 
 ## 核心工作流
 

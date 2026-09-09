@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.13",
-    "notes":  "侧边栏性能卡的网络项改为仅显示下载速度；自动任务与静默 Heartbeat 不再触发工作台和邮件完成通知；精简右侧栏重复的工作状态标题，并同步调整通知设置说明。",
-    "pub_date":  "2026-09-08T09:09:22Z",
-    "publishedAt":  "2026-09-08T09:09:22Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.13",
+    "version":  "1.9.14",
+    "notes":  "修复开机自启重复启动并清理旧启动项；项目提交支持手动填写及 AI 追加建议；优化独显显存进度显示。",
+    "pub_date":  "2026-09-09T05:06:35Z",
+    "publishedAt":  "2026-09-09T05:06:35Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.14",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "46f610938dac9ca0c4043649730dbd3713ddaddc",
+    "sourceCommit":  "02d7e27d0a247d5997643e14bce8ef71043ab1ea",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.13-Installer.exe",
-                      "sizeBytes":  8434396,
-                      "sizeText":  "8.04 MB",
-                      "sha256":  "073D71B5B71EAFCF97177AA96F66EEA4C3446AC4B51D5B405FB73178B2BE8172",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.13/AI-Personal-Workbench-V1.9.13-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V1.9.14-Installer.exe",
+                      "sizeBytes":  8439963,
+                      "sizeText":  "8.05 MB",
+                      "sha256":  "65AFA063C0AD57DF080CBA7B51ABFCF85CDD267203805297BFC36A642AC96956",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.13-Portable.exe",
-                     "sizeBytes":  26626048,
-                     "sizeText":  "25.39 MB",
-                     "sha256":  "11A4BA304D5A3C55A544463F4559C2D6B406BD47CC74A6A09DDF7A1472EA2556",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.13/AI-Personal-Workbench-V1.9.13-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V1.9.14-Portable.exe",
+                     "sizeBytes":  26607616,
+                     "sizeText":  "25.38 MB",
+                     "sha256":  "1E5AB1C4FD24515616604DFDB858B95BE6C5EB3432B50FA1EFDD0532817988BF",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2d4OVZWV1BGOE5DbGQ3NnJXRWpHWk1DYU5Ud2lLSW0xZXRpUmkwVzVhRzUwUGc4YUZwaHNRM0E3akxpblpYZ1ZSMXBpM21PWGltczY4UHI1cGVQN2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODU4NTUyCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xM194NjQtc2V0dXAuZXhlCis2T1o5VjJmSHdCQTMwMDBVdFRKS0NITkZSd3ZrT05YZ3I3UXBUbSsxZno5cGFUNmlFV1FQRGZyVHF5ZkhuaTVqQk8xV1VDNlFjMnB0dmNsbDMvRUF3PT0K",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.13/AI-Personal-Workbench-V1.9.13-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3FDZ0hla2djTUxvZmUxOGFkSG5RTDhvN2tnK1pJdzRlelNqM3lMWlRZbWVNcWdCcjEwY1QxQW1WZk9yMFNmSHhxR3hGdzNUN3IrcjRSVHIyVkRyTndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTMwMzkwCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xNF94NjQtc2V0dXAuZXhlCnk0Rjg5UWxtWXNORmRqbnovVk04ZGpIQVJKNmxKYk1TUnJuakw2NlhrbkFSYVNWWERtdXBpdVcvOVUrTmg2WWhzNmk5ZUxjanFQWFB4ZVlQeFdsZ0FBPT0K",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Installer.exe"
                                          }
                   }
 }
