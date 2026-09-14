@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.14
+# 星枢 ASTRION V1.9.15
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.14/AI-Personal-Workbench-V1.9.14-Portable.exe)
-- [查看 V1.9.14 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.14)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Portable.exe)
+- [查看 V1.9.15 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.15)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.14 修复开机自启时可能出现两个工作台实例的问题，并在升级时清理旧启动项；项目资产提交支持直接填写提交信息，AI 建议只追加修改明细；同时优化独显显存进度显示。
+V1.9.15 智能提交一键完成同步、冲突处理、完整信息生成、提交与推送，不再要求二次确认；修复暂存恢复冲突、热更新恢复后的编译状态及侧边栏运行项目显示；本地 OpenAPI 导出端口被占用时自动选择空闲端口。手动提交的 AI 建议仍保留原文并追加明细。
 
 ## 核心工作流
 
@@ -39,7 +39,7 @@ V1.9.14 修复开机自启时可能出现两个工作台实例的问题，并在
 - 工作数据默认保存在 Windows 本机 SQLite，不要求部署服务端。
 - Codex 和 Git 扫描默认只读，不修改原始会话或自动执行 Git 操作。
 - TAPD、Git、邮箱和 API 密钥使用 Windows Credential Manager，不写入 SQLite、日志或仓库。
-- 提交、推送、缺陷回写和真实接口测试需要人工确认。
+- 智能提交由用户点击启动，随后自动提交并推送；遇到无法安全处理的冲突或范围变化时停止。手动提交、缺陷回写和真实接口测试仍由用户确认。
 - 工时明确标记为估算值并允许手工修正。
 - 一键更新前自动备份本地数据库；内部备份自动只保留最近 10 条可用记录。
 
