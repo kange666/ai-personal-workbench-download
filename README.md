@@ -1,16 +1,16 @@
-# 星枢 ASTRION V1.9.15
+# 星枢 ASTRION V2.0.0
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Portable.exe)
-- [查看 V1.9.15 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.15)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.0/AI-Personal-Workbench-V2.0.0-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.0/AI-Personal-Workbench-V2.0.0-Portable.exe)
+- [查看 V2.0.0 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.0)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V1.9.15 智能提交一键完成同步、冲突处理、完整信息生成、提交与推送，不再要求二次确认；修复暂存恢复冲突、热更新恢复后的编译状态及侧边栏运行项目显示；本地 OpenAPI 导出端口被占用时自动选择空闲端口。手动提交的 AI 建议仍保留原文并追加明细。
+V2.0.0 智能提交改为更新远程后先生成信息并提交本地修改，再拉取远程、AI 合并冲突、完成合并提交和推送；合并失败保留本地提交，重试不重复提交。接口测试只自动生成必填参数，并提示文档未声明的 HTML 响应；修复跨天日期、黄历和今日工时刷新。版本号按个位进位规则升级至 2.0.0。
 
 ## 核心工作流
 

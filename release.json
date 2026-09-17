@@ -1,29 +1,29 @@
 {
-    "version":  "1.9.15",
-    "notes":  "智能提交一键完成同步、冲突处理、完整信息生成、提交与推送，无需二次确认；修复暂存恢复冲突和本地远程版本选择；修复热更新恢复后的编译状态与侧边栏运行项目显示；支持本地 OpenAPI 导出端口占用回退。",
-    "pub_date":  "2026-09-14T08:15:19Z",
-    "publishedAt":  "2026-09-14T08:15:19Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V1.9.15",
+    "version":  "2.0.0",
+    "notes":  "智能提交改为更新远程后先生成信息并提交本地修改，再拉取远程、AI 合并冲突、完成合并提交和推送；合并失败保留本地提交，重试不重复提交。接口测试只自动生成必填参数，并提示未声明的 HTML 响应。修复跨天日期、黄历和今日工时刷新。版本号按个位进位规则升级至 2.0.0。",
+    "pub_date":  "2026-09-17T02:28:31Z",
+    "publishedAt":  "2026-09-17T02:28:31Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.0",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "ea7156bcf9870f628026abbb273c5e9b560ab2c3",
+    "sourceCommit":  "251232276cd084a56aead2c5b99d80c8cbc35079",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V1.9.15-Installer.exe",
-                      "sizeBytes":  8444833,
-                      "sizeText":  "8.05 MB",
-                      "sha256":  "950F08ABFF5F121E06DEC97F162852B50143DB7251193E912941CF7A42C809AA",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V2.0.0-Installer.exe",
+                      "sizeBytes":  8469056,
+                      "sizeText":  "8.08 MB",
+                      "sha256":  "C5940C2A54B5ACA412B698D6DF91982C2AF325ED083BC16DCE1D2761AAFA6109",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.0/AI-Personal-Workbench-V2.0.0-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V1.9.15-Portable.exe",
-                     "sizeBytes":  26652160,
-                     "sizeText":  "25.42 MB",
-                     "sha256":  "B0861BCE3926507A9A6EC139B373CEE6F7B1BD42A64978D71510433F96C9AABF",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V2.0.0-Portable.exe",
+                     "sizeBytes":  26820608,
+                     "sizeText":  "25.58 MB",
+                     "sha256":  "7AC60909F1EAB024372841182D2EEDBD2B11BEB00254F7C546375529EB1B1614",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.0/AI-Personal-Workbench-V2.0.0-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3MyWmxFakVDcWM0Mm9QMEdRckRtUlZ3VnB6RHh0MWdHSWN2OElZeEpjSktkRnhqSmhtczJUbURrcUpqNmJqbWd5cXRIZnRVWjVENnRkSzdvSHdaYmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzczNzEzCWZpbGU65pif5p6i5bel5L2c5Y+wXzEuOS4xNV94NjQtc2V0dXAuZXhlCncwbHk0RmVWS1h0YVFzdVF3R2tUUnlSYTdiZXEyRDlPUDQ5bkE5QSszL2ZtSnFHNm5Ja25ja2s0dUNxZUhKSmFCblB4VUVhNDJDcW8xOEJTbHVqOERRPT0K",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V1.9.15/AI-Personal-Workbench-V1.9.15-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2w3NXFscTI2TndoUGx5N2dKbVpkeTYyaUJZRWUvb2xJNDYrN2RXMVRVdm5mYXA3cEIxVS8zM2dQNENnM3JOeUp5UWpra3pzNnZYYnB3MGhiS3VBVmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjEyMTA1CWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC4wX3g2NC1zZXR1cC5leGUKdGpkSEsweXpWTG1sZFVDLzd5T3Q2a21UR1F2Q2M2S2x5RDMxSVNTYnRlNVdtNDNPRkdrcExqcWFXV3RFZ1ltMk9lZytVb1AyOCt5OTZHRzJSQnJXRFE9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.0/AI-Personal-Workbench-V2.0.0-Installer.exe"
                                          }
                   }
 }
