@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.2
+# 星枢 ASTRION V2.0.3
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.2/AI-Personal-Workbench-V2.0.2-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.2/AI-Personal-Workbench-V2.0.2-Portable.exe)
-- [查看 V2.0.2 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.2)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Portable.exe)
+- [查看 V2.0.3 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.3)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.2 新增“休息站”，包含接线解谜、打砖块、堆塔挑战、休闲钓鱼、推箱子和五子棋六款离线小游戏。支持本地自动存档、最高分记录、暂停和继续游玩，适配深色与暖色主题。
+V2.0.3 优化页面加载、后台轮询、项目与测试查询、工时及 Codex 扫描，修复通用额度重置次数获取；完善任务保存与收件箱联动、历史项目映射、Jenkins 发布证据、备份恢复校验及本地脱敏诊断。补齐项目重复启动和启动/停止中退出的进程回收保护，新安装不再预置固定 TAPD 项目。
 
 ## 核心工作流
 
