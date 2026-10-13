@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.3
+# 星枢 ASTRION V2.0.4
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Portable.exe)
-- [查看 V2.0.3 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.3)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Portable.exe)
+- [查看 V2.0.4 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.4)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.3 优化页面加载、后台轮询、项目与测试查询、工时及 Codex 扫描，修复通用额度重置次数获取；完善任务保存与收件箱联动、历史项目映射、Jenkins 发布证据、备份恢复校验及本地脱敏诊断。补齐项目重复启动和启动/停止中退出的进程回收保护，新安装不再预置固定 TAPD 项目。
+V2.0.4 优化右栏黄历与休息站紧凑布局，六款游戏可从 3×2 图标直接打开；用经典 21 层魔塔替换钓鱼，随应用附带原版文件和离线播放器，提供暂停及本次运行内关闭续玩，退出应用后重新开始。修复推箱子格子比例与魔塔滚动越界遮挡。魔塔真实游玩、音频和 Tauri 桌面运行尚未完成验证。
 
 ## 核心工作流
 

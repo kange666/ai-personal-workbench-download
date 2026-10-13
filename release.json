@@ -1,29 +1,29 @@
 {
-    "version":  "2.0.3",
-    "notes":  "优化页面加载、后台轮询、项目与测试查询、工时及 Codex 扫描；修复通用额度重置次数获取。完善任务保存与收件箱联动、历史项目映射、Jenkins 发布证据、备份恢复校验及本地脱敏诊断。补齐项目重复启动和启动/停止中退出的进程回收保护；新安装不再预置固定 TAPD 项目。",
-    "pub_date":  "2026-09-29T08:18:45Z",
-    "publishedAt":  "2026-09-29T08:18:45Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.3",
+    "version":  "2.0.4",
+    "notes":  "优化右栏黄历与休息站紧凑布局，六款游戏可从 3×2 图标直接打开；用经典 21 层魔塔替换钓鱼，随应用附带原版文件与离线播放器，提供暂停及本次运行内关闭续玩，退出应用后重新开始。修复推箱子格子比例和魔塔滚动越界遮挡，补充加载、焦点及续开重置测试。魔塔真实游玩、音频和 Tauri 桌面运行尚未完成验证。",
+    "pub_date":  "2026-10-13T09:44:35Z",
+    "publishedAt":  "2026-10-13T09:44:35Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.4",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "221de0ea1db93d4e9220628496e6aa1390ff1e80",
+    "sourceCommit":  "6edb5bb500963e4de99bafbfcaebfb26bfbec911",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V2.0.3-Installer.exe",
-                      "sizeBytes":  8863430,
-                      "sizeText":  "8.45 MB",
-                      "sha256":  "DA82E4514A0438AED0D99241B9DAF2BE44EDEAB962BF5011F89CEF980851A31A",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V2.0.4-Installer.exe",
+                      "sizeBytes":  18453497,
+                      "sizeText":  "17.60 MB",
+                      "sha256":  "B074C8D1D266133A92787D879B6CCC853002FD2DEA5AEB410855DC385F2553C8",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V2.0.3-Portable.exe",
-                     "sizeBytes":  28938752,
-                     "sizeText":  "27.60 MB",
-                     "sha256":  "6BA6EF83CE828E14DD16FECBE99AD3EB5BC8DD291E5D8DF06DAD2C852A2C728B",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V2.0.4-Portable.exe",
+                     "sizeBytes":  38425088,
+                     "sizeText":  "36.65 MB",
+                     "sha256":  "AC3B3F18CD95CCA68632157D365FDAF4992BA77DAF51179C1B43250CA6704C86",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2hMMTBVYzlOdUl3c0RicEdob3FkeWE1bWtGRExMU2gySWdjMWxPbnk3bTdETWx4MGZFaHhHSWxUNTB1RElFREo0NDhHaEpJaUVQMGJlWUkzSVc1ZGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNjY5OTIxCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC4zX3g2NC1zZXR1cC5leGUKOW12b2FaVGNhYkR1L01uNDVzbDRXdDBGZ0taU2ZTeUw0TkhGb3VydW1mZDhWSGl1WFhuTnRsSjhhVUdQRm91WE9Ra3FEbHlFSHIzYS9mck5HY0VvRHc9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.3/AI-Personal-Workbench-V2.0.3-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2pPN0VvT2kxR05MUVVVaS93dERsVk5acjhqLzh1dGJjVzdoa1ZSQjEzdndwdEh5QTN1YVRjOVRNN0RhTTRjYWdUUk1RUGZRajZyN1NzOUxTUWF6SlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODg0NjcxCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC40X3g2NC1zZXR1cC5leGUKV25ETnlpeHhXRVM4Q3pNOTlKVXhxL241R2MzbFZ3UUpwek5JWGNLS3ZGWmNiNkRCTFFGN3pRRzIrblpIUXR1R1M2Y2lhZTVsMGZLTzJCeTBpT090REE9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Installer.exe"
                                          }
                   }
 }
