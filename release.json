@@ -1,29 +1,29 @@
 {
-    "version":  "2.0.4",
-    "notes":  "优化右栏黄历与休息站紧凑布局，六款游戏可从 3×2 图标直接打开；用经典 21 层魔塔替换钓鱼，随应用附带原版文件与离线播放器，提供暂停及本次运行内关闭续玩，退出应用后重新开始。修复推箱子格子比例和魔塔滚动越界遮挡，补充加载、焦点及续开重置测试。魔塔真实游玩、音频和 Tauri 桌面运行尚未完成验证。",
-    "pub_date":  "2026-10-13T09:44:35Z",
-    "publishedAt":  "2026-10-13T09:44:35Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.4",
-    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "6edb5bb500963e4de99bafbfcaebfb26bfbec911",
-    "installer":  {
-                      "name":  "AI-Personal-Workbench-V2.0.4-Installer.exe",
-                      "sizeBytes":  18453497,
-                      "sizeText":  "17.60 MB",
-                      "sha256":  "B074C8D1D266133A92787D879B6CCC853002FD2DEA5AEB410855DC385F2553C8",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Installer.exe"
-                  },
-    "portable":  {
-                     "name":  "AI-Personal-Workbench-V2.0.4-Portable.exe",
-                     "sizeBytes":  38425088,
-                     "sizeText":  "36.65 MB",
-                     "sha256":  "AC3B3F18CD95CCA68632157D365FDAF4992BA77DAF51179C1B43250CA6704C86",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Portable.exe"
-                 },
-    "platforms":  {
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2pPN0VvT2kxR05MUVVVaS93dERsVk5acjhqLzh1dGJjVzdoa1ZSQjEzdndwdEh5QTN1YVRjOVRNN0RhTTRjYWdUUk1RUGZRajZyN1NzOUxTUWF6SlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODg0NjcxCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC40X3g2NC1zZXR1cC5leGUKV25ETnlpeHhXRVM4Q3pNOTlKVXhxL241R2MzbFZ3UUpwek5JWGNLS3ZGWmNiNkRCTFFGN3pRRzIrblpIUXR1R1M2Y2lhZTVsMGZLTzJCeTBpT090REE9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.4/AI-Personal-Workbench-V2.0.4-Installer.exe"
-                                         }
-                  }
+  "version": "2.0.5",
+  "notes": "休息站扩展为 4×2 八款游戏入口，新增火柴人抛物线射箭“弧线对决”和单塔成长塔防“孤塔守夜”，提供辅助瞄准、特殊箭、三选一强化、局内升级与本机进度保存。\n\n丰富原有五款游戏：接线 60 关、打砖块 40 关与无尽玩法、堆塔 40 项目标、推箱子 80 关、五子棋 30 道残局；五子棋默认入门难度，增加提示、复盘与执子选择，并保留旧玩法和有效历史进度。\n\n魔塔入口可选择经典 21 层和经典 50 层，50 层支持本机存档、读档及自动存档。\n\n真实桌面测试中修复了重箭弹道与预览不一致、塔防完成波数少记一波、五子棋残局分数和步数不一致，以及堆塔/打砖块场景宽度、键盘焦点和待发球位置问题。\n\n验收：除魔塔外的 7 款游戏，均在 Windows Tauri 开发版完成 3 轮实际点击和键盘游玩场景测试，共 21 轮通过，覆盖深色/暖色、普通窗口/最大化及暂停恢复、关闭续玩。此轮按要求未重复验收魔塔，也不代表逐关人工通关全部内容。\n",
+  "pub_date": "2026-10-14T10:46:13Z",
+  "publishedAt": "2026-10-14T10:46:13Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.5",
+  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
+  "sourceCommit": "55b3d30b39443cf641254e97ba97c391e806fcd3",
+  "installer": {
+    "name": "AI-Personal-Workbench-V2.0.5-Installer.exe",
+    "sizeBytes": 39665757,
+    "sizeText": "37.83 MB",
+    "sha256": "B76A59A3EF8915753CE346E97D653437F13205C1FC4B1C1F18765FC22D475987",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Installer.exe"
+  },
+  "portable": {
+    "name": "AI-Personal-Workbench-V2.0.5-Portable.exe",
+    "sizeBytes": 59520512,
+    "sizeText": "56.76 MB",
+    "sha256": "CAAD21FECEBD4EE8677CC9567CF1050980DAA5B7B8DB92D63DB4D33685115597",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Portable.exe"
+  },
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3JhR0tJblVJZEljVGdjUnM2RkVWUUhjTnhUYlJxbFRiM0M2SlJKZmJnajJJVlpKQjVNNVRNVmJRY2I2blBvTnlOZTJ2bHRrNVpKVzhBKzFBK3R3QlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTc0NzY3CWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC41X3g2NC1zZXR1cC5leGUKZ2szRmFvQTAyazY3WVUwdWZmd0FSUUFISXVlaERZMEY5QTFNUC85cERLSUx3QUdEbmFLUDRlRkFhbW54K0lQQzU1bXd0NWQyMEg0aGw0SUd3d29iQnc9PQo=",
+      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Installer.exe"
+    }
+  }
 }
