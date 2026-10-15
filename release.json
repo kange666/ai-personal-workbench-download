@@ -1,29 +1,29 @@
 {
-  "version": "2.0.6",
-  "notes": "重新设计弧线对决与孤塔守夜：扩大两款游戏的战场，补充射手拉弓、放箭与受击动作，以及塔炮转向、敌人造型、命中和升级反馈；沿用轻量 SVG 绘图，限制短特效数量，并在待机时停止不必要的动画。\n\n孤塔守夜新增开局可选的「无尽守卫」，已有闯关进度也可保留血量、金币与强化直接转入无尽。波数、局内基础升级与强化牌取消原玩法等级上限，每波三选一后继续出怪；攻速和射程到达画面上限后继续转为伤害，强化牌 6 级后提供精研增伤。支持本机自动保存与续玩，同屏敌人达到上限时保留待入场队列。\n\n修复暖色准备界面未选中按钮文字不清楚的问题。双游戏重设计各完成三轮 Windows Tauri 桌面实玩；无尽模式另完成三轮场景验收，覆盖旧档转换、新局过波、升级、选卡和关闭恢复，以及深色/暖色、普通/最大化窗口。高等级和高波数边界由自动化测试覆盖，未宣称长期挂机或逐关人工通关。\n\n发布前检查：完整前端回归 69 个文件、414 项测试通过；生产构建、Rust 格式检查及 271 项 Rust 测试通过，2 项既有本机集成检查按原设置忽略。\n",
-  "pub_date": "2026-10-15T04:57:30Z",
-  "publishedAt": "2026-10-15T04:57:30Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.6",
-  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "d09087dc243cf5fad5e9beef9de7cd069372c831",
-  "installer": {
-    "name": "AI-Personal-Workbench-V2.0.6-Installer.exe",
-    "sizeBytes": 39673547,
-    "sizeText": "37.84 MB",
-    "sha256": "ACFF406B8DCCF28C7C5F0D399C385F88F4D51B9555B5686C9EDF4B8590C42428",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Installer.exe"
-  },
-  "portable": {
-    "name": "AI-Personal-Workbench-V2.0.6-Portable.exe",
-    "sizeBytes": 59528704,
-    "sizeText": "56.77 MB",
-    "sha256": "59DB54E9DB0C9A773C92718629133842D373B5967023EAA04286049D337C4E5F",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Portable.exe"
-  },
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2lnR3kzRXZwbU5HRU1XYzlScUtwVjR6cXJyRHB6b2dlRm4rRCtFcGY3ait4RjFHYlJBTVFZcThHdFNKMTQ3aW8wRmZJQjQ4WldoRWpSd0tHSnlMUUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQwMjQyCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC42X3g2NC1zZXR1cC5leGUKK0ZZV3BvTCs2NGRQSjhRcnJtZGNzeCs4MS9jclVKRlR4dTc1MTlsZU1lOWxpYUYxVis5WWFJMTNGcHhmMnRnemxTSTJZNTF5VDJDcGlMekdyN1Z6QUE9PQo=",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Installer.exe"
-    }
-  }
+    "version":  "2.0.7",
+    "notes":  "V2.0.7 新增五子棋 DeepSeek 最高难度，并完善休息站的挑战和强化流程。\n\n- 五子棋新增“DeepSeek · 最高”：使用设置中已配置的密钥，开始对弈后只发送棋盘和执子。联网建议经连续冲四、连续威胁证明及最多约 8 秒的本地深搜校验；计算放在独立线程，支持暂停、悔棋和续玩。无效建议会明确提示由最高档搜索修正，连接失败可手动重试。\n- 五子棋更换为 30 道有完整多步杀法的实战残局，实际连五后才通关；高手采用多层攻防搜索。\n- 射箭提高电脑的生命、准度与伤害，保留瞄准辅助、特殊箭和玩家先手优势。\n- 塔防适度提高敌人压力；每波直接继续，强化次数可累计，三选一支持免费不限次刷新、暂存及继续战斗。36 张强化提供详细说明并正确折行。\n- 修复经典 50 层魔塔离线启动时错误加载线上脚本的问题。\n\n验证：完整前端回归 75 个文件、459 项测试通过；生产构建、Rust 格式检查及 274 项 Rust 测试通过，2 项既有只读本机集成检查按原设置忽略。最高档本地校验引擎在四组固定开局、交换黑白的 8 盘内部对照中，对高手取得 6 胜 2 负；该结果不等同于专业段位或对真实玩家的胜率保证。\n\n五子棋完成三轮 Windows Tauri 桌面场景验收：多步残局完整通关、最高档执白联网对局与收官、最高档执黑的暂停/悔棋/关闭续玩。射箭完成三轮完整对决，覆盖普通箭、重箭、爆破箭、拖动放箭、暂停、退出续玩及深色/暖色主题。真实测试发现的模型重复返回非法坐标问题已修复并复测；未将三轮场景表述为三盘完整联网对局，也未宣称逐题或全部射箭关卡人工通关。\n",
+    "pub_date":  "2026-10-15T10:36:01Z",
+    "publishedAt":  "2026-10-15T10:36:01Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.7",
+    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
+    "sourceCommit":  "5749e9940e5a60295622c4d3f28db71a186b7fb0",
+    "installer":  {
+                      "name":  "AI-Personal-Workbench-V2.0.7-Installer.exe",
+                      "sizeBytes":  39700646,
+                      "sizeText":  "37.86 MB",
+                      "sha256":  "836527A594CD8316F0852FA8EAEA31215F28F6387A50729DCA4CCACC24B6D222",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.7/AI-Personal-Workbench-V2.0.7-Installer.exe"
+                  },
+    "portable":  {
+                     "name":  "AI-Personal-Workbench-V2.0.7-Portable.exe",
+                     "sizeBytes":  59548160,
+                     "sizeText":  "56.79 MB",
+                     "sha256":  "349D4C051BC7EA4CC61FCDA0E41581383C7A0989DCF4B0CF40247EAC721C5FB2",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.7/AI-Personal-Workbench-V2.0.7-Portable.exe"
+                 },
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3ZDM2p3c2hIbjEyaFBzZWt6aVVCT0NQM3VyUGJ5TE52YURzT212d2lKSzM0UGgvZlo5ZUo2SGtqWEJuNEFnMjJpSTFNZ3c0a2JZWnBjdHFBV1U5OHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDYwNTU4CWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC43X3g2NC1zZXR1cC5leGUKcm42MFo1V3p0UDRheDRieGEwNkQrY3ppL0pXbFNEZC81V3FseXJiY28zYTd5K2dPendza09QTm56eUovZ05aMGE1aXBqNjd3K01EUjM2MUZZYUxEQmc9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.7/AI-Personal-Workbench-V2.0.7-Installer.exe"
+                                         }
+                  }
 }
