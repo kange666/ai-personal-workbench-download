@@ -1,29 +1,29 @@
 {
-  "version": "2.0.5",
-  "notes": "休息站扩展为 4×2 八款游戏入口，新增火柴人抛物线射箭“弧线对决”和单塔成长塔防“孤塔守夜”，提供辅助瞄准、特殊箭、三选一强化、局内升级与本机进度保存。\n\n丰富原有五款游戏：接线 60 关、打砖块 40 关与无尽玩法、堆塔 40 项目标、推箱子 80 关、五子棋 30 道残局；五子棋默认入门难度，增加提示、复盘与执子选择，并保留旧玩法和有效历史进度。\n\n魔塔入口可选择经典 21 层和经典 50 层，50 层支持本机存档、读档及自动存档。\n\n真实桌面测试中修复了重箭弹道与预览不一致、塔防完成波数少记一波、五子棋残局分数和步数不一致，以及堆塔/打砖块场景宽度、键盘焦点和待发球位置问题。\n\n验收：除魔塔外的 7 款游戏，均在 Windows Tauri 开发版完成 3 轮实际点击和键盘游玩场景测试，共 21 轮通过，覆盖深色/暖色、普通窗口/最大化及暂停恢复、关闭续玩。此轮按要求未重复验收魔塔，也不代表逐关人工通关全部内容。\n",
-  "pub_date": "2026-10-14T10:46:13Z",
-  "publishedAt": "2026-10-14T10:46:13Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.5",
+  "version": "2.0.6",
+  "notes": "重新设计弧线对决与孤塔守夜：扩大两款游戏的战场，补充射手拉弓、放箭与受击动作，以及塔炮转向、敌人造型、命中和升级反馈；沿用轻量 SVG 绘图，限制短特效数量，并在待机时停止不必要的动画。\n\n孤塔守夜新增开局可选的「无尽守卫」，已有闯关进度也可保留血量、金币与强化直接转入无尽。波数、局内基础升级与强化牌取消原玩法等级上限，每波三选一后继续出怪；攻速和射程到达画面上限后继续转为伤害，强化牌 6 级后提供精研增伤。支持本机自动保存与续玩，同屏敌人达到上限时保留待入场队列。\n\n修复暖色准备界面未选中按钮文字不清楚的问题。双游戏重设计各完成三轮 Windows Tauri 桌面实玩；无尽模式另完成三轮场景验收，覆盖旧档转换、新局过波、升级、选卡和关闭恢复，以及深色/暖色、普通/最大化窗口。高等级和高波数边界由自动化测试覆盖，未宣称长期挂机或逐关人工通关。\n\n发布前检查：完整前端回归 69 个文件、414 项测试通过；生产构建、Rust 格式检查及 271 项 Rust 测试通过，2 项既有本机集成检查按原设置忽略。\n",
+  "pub_date": "2026-10-15T04:57:30Z",
+  "publishedAt": "2026-10-15T04:57:30Z",
+  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.6",
   "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "55b3d30b39443cf641254e97ba97c391e806fcd3",
+  "sourceCommit": "d09087dc243cf5fad5e9beef9de7cd069372c831",
   "installer": {
-    "name": "AI-Personal-Workbench-V2.0.5-Installer.exe",
-    "sizeBytes": 39665757,
-    "sizeText": "37.83 MB",
-    "sha256": "B76A59A3EF8915753CE346E97D653437F13205C1FC4B1C1F18765FC22D475987",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Installer.exe"
+    "name": "AI-Personal-Workbench-V2.0.6-Installer.exe",
+    "sizeBytes": 39673547,
+    "sizeText": "37.84 MB",
+    "sha256": "ACFF406B8DCCF28C7C5F0D399C385F88F4D51B9555B5686C9EDF4B8590C42428",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Installer.exe"
   },
   "portable": {
-    "name": "AI-Personal-Workbench-V2.0.5-Portable.exe",
-    "sizeBytes": 59520512,
-    "sizeText": "56.76 MB",
-    "sha256": "CAAD21FECEBD4EE8677CC9567CF1050980DAA5B7B8DB92D63DB4D33685115597",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Portable.exe"
+    "name": "AI-Personal-Workbench-V2.0.6-Portable.exe",
+    "sizeBytes": 59528704,
+    "sizeText": "56.77 MB",
+    "sha256": "59DB54E9DB0C9A773C92718629133842D373B5967023EAA04286049D337C4E5F",
+    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Portable.exe"
   },
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3JhR0tJblVJZEljVGdjUnM2RkVWUUhjTnhUYlJxbFRiM0M2SlJKZmJnajJJVlpKQjVNNVRNVmJRY2I2blBvTnlOZTJ2bHRrNVpKVzhBKzFBK3R3QlFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTc0NzY3CWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC41X3g2NC1zZXR1cC5leGUKZ2szRmFvQTAyazY3WVUwdWZmd0FSUUFISXVlaERZMEY5QTFNUC85cERLSUx3QUdEbmFLUDRlRkFhbW54K0lQQzU1bXd0NWQyMEg0aGw0SUd3d29iQnc9PQo=",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Installer.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2lnR3kzRXZwbU5HRU1XYzlScUtwVjR6cXJyRHB6b2dlRm4rRCtFcGY3ait4RjFHYlJBTVFZcThHdFNKMTQ3aW8wRmZJQjQ4WldoRWpSd0tHSnlMUUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQwMjQyCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC42X3g2NC1zZXR1cC5leGUKK0ZZV3BvTCs2NGRQSjhRcnJtZGNzeCs4MS9jclVKRlR4dTc1MTlsZU1lOWxpYUYxVis5WWFJMTNGcHhmMnRnemxTSTJZNTF5VDJDcGlMekdyN1Z6QUE9PQo=",
+      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Installer.exe"
     }
   }
 }

@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.5
+# 星枢 ASTRION V2.0.6
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.5/AI-Personal-Workbench-V2.0.5-Portable.exe)
-- [查看 V2.0.5 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.5)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.6/AI-Personal-Workbench-V2.0.6-Portable.exe)
+- [查看 V2.0.6 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.6)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.5 将休息站扩展为 4×2 八款游戏，新增火柴人射箭“弧线对决”和单塔成长塔防“孤塔守夜”；原有五款游戏补充章节、关卡和练习，五子棋默认入门难度。魔塔可选择经典 21 层与经典 50 层，50 层支持本机存档、读档和自动存档。修复实测中发现的弹道、计分、波数、场景宽度及键盘操作问题。除魔塔外，七款游戏已在 Windows Tauri 开发版各完成三轮真实游玩场景验收；此轮未重复验收魔塔，不代表逐关人工通关全部内容。
+V2.0.6 重新设计“弧线对决”和“孤塔守夜”的场景、角色与动作反馈，扩大两款游戏的战场，沿用轻量 SVG 绘图并限制特效数量。塔防新局可选择“无尽守卫”，已有闯关进度也可保留血量、金币和强化转入无尽；波数、局内升级与强化牌取消原玩法等级上限，支持自动保存与续玩。双游戏重设计各完成三轮 Windows Tauri 桌面实玩，无尽模式另完成三轮场景验收；完整前端 414 项、Rust 271 项测试通过，2 项既有本机集成检查按原设置忽略。高波数由自动化测试覆盖，未宣称长期挂机或逐关人工通关。
 
 ## 核心工作流
 
