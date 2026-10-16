@@ -1,29 +1,29 @@
 {
-    "version":  "2.0.8",
-    "notes":  "V2.0.8 调整塔防“孤塔守夜”的自动暂停行为。\n\n- 点击其他窗口后继续自动战斗，不再因工作台失去焦点而暂停。\n- 保留手动暂停、强化选卡暂停、隐藏窗口暂停及关闭后续玩。\n- 其他小游戏继续使用原有暂停规则。\n\n按用户本次要求跳过自动测试与桌面验收；此版本不声明测试或验收通过。发布包由正式签名构建流程生成。\n",
-    "pub_date":  "2026-10-16T01:49:46Z",
-    "publishedAt":  "2026-10-16T01:49:46Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.8",
+    "version":  "2.0.9",
+    "notes":  "V2.0.9 优化右侧边栏与 TAPD 缺陷展示。\n\n- 黄历默认只显示日期信息，点击右侧箭头可展开或收起宜忌；宜、忌各占一行。\n- 侧栏顺序调整为休息站、当前工作、异常状态，运行项目和执行任务仍按实际状态显示。\n- TAPD 缺陷列表、项目数量及自动处理预览只使用最近一次成功同步的数据，已移出当前负责人范围的旧条目不再混入，历史记录保留。",
+    "pub_date":  "2026-10-16T04:09:46Z",
+    "publishedAt":  "2026-10-16T04:09:46Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.9",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "df3f7f58dd3ed7b0edf5500b1d23a11fa07cb67c",
+    "sourceCommit":  "46e3f7fb0c95ac156afc1994834293091a4ba6f1",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V2.0.8-Installer.exe",
-                      "sizeBytes":  39695371,
+                      "name":  "AI-Personal-Workbench-V2.0.9-Installer.exe",
+                      "sizeBytes":  39696274,
                       "sizeText":  "37.86 MB",
-                      "sha256":  "E396F7059AEA8A4A8F51476FBE9B009635205E2A913274E2AB00CD5A80BA8521",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.8/AI-Personal-Workbench-V2.0.8-Installer.exe"
+                      "sha256":  "10615197C9DA39D8E43B274AC2B8DB87214A1097FBEA53BB5BDD489C69CCF693",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V2.0.8-Portable.exe",
+                     "name":  "AI-Personal-Workbench-V2.0.9-Portable.exe",
                      "sizeBytes":  59548160,
                      "sizeText":  "56.79 MB",
-                     "sha256":  "372FCB6E5F3C7998EEC96FBAB226BA6DB29F5574722E59D2CD0C8DFACB0725E3",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.8/AI-Personal-Workbench-V2.0.8-Portable.exe"
+                     "sha256":  "B89D071F4C2E9ABF2E64C28A6213C91D1293DC637F195D7DFA62C96E83CC6AA5",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d25hU3Y2SHdHYWlQY216Z0xLdnJDRGQ5cFJxUmhxY1N3cGx4SjNSeE93UThxYXp4N0pvUVViOUxOSkZadFpUVGRoc2tqVXduOG9XM200SHAraHp6OXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTE1MzgzCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC44X3g2NC1zZXR1cC5leGUKTXBVT0RCenZzUWdjbHNoY3FpaFJ2Rm9Xdk9rbW1xTmtRRW11OWRGdUh2REFVZ1d1U0ZVWXNEMEo1QmRVNTJRanFVb3ZVKytjcEpMbmx0QkM5cWR5QVE9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.8/AI-Personal-Workbench-V2.0.8-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2xVWkphbkRsaElGYjNqK3pPRWZTY0t1bC93WVJEWEx1Um5jWndOK1hBWVFNcHUraEQ1R0QvRkNxdE1iU3ArY2ZCd1hONFVCazFIWjU5NGIvbUpJVXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTIzNzgzCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC45X3g2NC1zZXR1cC5leGUKUDZRRFBkTyt6K003L216Z3hKaWtoR3BZd3BWemd3LzI3cW5HNHVBU2xoUkpTNm9JM1hWenZjMlk4MWtyUUtvWUZnWVRaVWM1ekNORlk1VERHcXE4Qmc9PQo=",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Installer.exe"
                                          }
                   }
 }
