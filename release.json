@@ -1,29 +1,29 @@
 {
-    "version":  "2.0.9",
-    "notes":  "V2.0.9 优化右侧边栏与 TAPD 缺陷展示。\n\n- 黄历默认只显示日期信息，点击右侧箭头可展开或收起宜忌；宜、忌各占一行。\n- 侧栏顺序调整为休息站、当前工作、异常状态，运行项目和执行任务仍按实际状态显示。\n- TAPD 缺陷列表、项目数量及自动处理预览只使用最近一次成功同步的数据，已移出当前负责人范围的旧条目不再混入，历史记录保留。",
-    "pub_date":  "2026-10-16T04:09:46Z",
-    "publishedAt":  "2026-10-16T04:09:46Z",
-    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.9",
+    "version":  "2.0.10",
+    "notes":  "V2.0.10 丰富休息站的挂机玩法与战斗表现。\n\n- 召唤军团替换射箭游戏，保留八款游戏的4×2入口；支持六兵种、四种挂机策略、24种强化、四个区域与三类首领。\n- 自动召兵、战斗、强化、永久训练与失败整备；收起后继续挂机，支持主动暂停、1倍/2倍速度和独立自动存档。\n- 本关阵亡的兵不再补回，进入下一关才统一满血复活；存活单位恢复部分生命，并显示当前存活/编队人数。\n- 重绘兵种装备与敌军轮廓，增加行走、出手、箭矢弹道、雷火法术、治疗与震地效果；保留单位和特效绘制预算。\n- 孤塔守夜新增四种塔芯、组合进化、更多敌人与首领、批量及自动升级、强化搜索与连续选择、详细属性和实际战斗统计；旧存档、永久研究和无尽模式保留。\n- 炮塔随等级和技能显示不同结构、弹体与命中特效；推箱子与魔塔入口位置互换。\n",
+    "pub_date":  "2026-10-16T10:38:45Z",
+    "publishedAt":  "2026-10-16T10:38:45Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.10",
     "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
-    "sourceCommit":  "46e3f7fb0c95ac156afc1994834293091a4ba6f1",
+    "sourceCommit":  "b06a76825b729eac16add4f0768de1c1ed4a1fe4",
     "installer":  {
-                      "name":  "AI-Personal-Workbench-V2.0.9-Installer.exe",
-                      "sizeBytes":  39696274,
-                      "sizeText":  "37.86 MB",
-                      "sha256":  "10615197C9DA39D8E43B274AC2B8DB87214A1097FBEA53BB5BDD489C69CCF693",
-                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Installer.exe"
+                      "name":  "AI-Personal-Workbench-V2.0.10-Installer.exe",
+                      "sizeBytes":  39725769,
+                      "sizeText":  "37.89 MB",
+                      "sha256":  "9EF5398F0ED524F0A96F7C55561F7818A5B5764205E350ED0B1A29A698FD163F",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Installer.exe"
                   },
     "portable":  {
-                     "name":  "AI-Personal-Workbench-V2.0.9-Portable.exe",
-                     "sizeBytes":  59548160,
-                     "sizeText":  "56.79 MB",
-                     "sha256":  "B89D071F4C2E9ABF2E64C28A6213C91D1293DC637F195D7DFA62C96E83CC6AA5",
-                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Portable.exe"
+                     "name":  "AI-Personal-Workbench-V2.0.10-Portable.exe",
+                     "sizeBytes":  59576832,
+                     "sizeText":  "56.82 MB",
+                     "sha256":  "66B62EF4BBEA29E7E67AD0FC9B6A0DCE3B0167E10CEFBB9C24F7B7767EB215BF",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Portable.exe"
                  },
     "platforms":  {
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2xVWkphbkRsaElGYjNqK3pPRWZTY0t1bC93WVJEWEx1Um5jWndOK1hBWVFNcHUraEQ1R0QvRkNxdE1iU3ArY2ZCd1hONFVCazFIWjU5NGIvbUpJVXdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTIzNzgzCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC45X3g2NC1zZXR1cC5leGUKUDZRRFBkTyt6K003L216Z3hKaWtoR3BZd3BWemd3LzI3cW5HNHVBU2xoUkpTNm9JM1hWenZjMlk4MWtyUUtvWUZnWVRaVWM1ekNORlk1VERHcXE4Qmc9PQo=",
-                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Installer.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d3IwU0ZpYU13K2F2RytER3h3bU1vWHBnTzd5czlJTjg5cmlxYUszMHpFNGRNTzBZS1VMNmJQNSs3dkd5SER3azlkUGZXYk5lYkdKb3dpdzVSYXVlOXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTQ3MTIwCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC4xMF94NjQtc2V0dXAuZXhlCnpXT3owaGM1dWRIWFgyUXBsM1U3OUFsZUhYTU1qNHJnbGR5VWJkZnpPSEtEZU9PQ1IrYmFTRFNQOWJsMzJPNHVsNVdCWHhwY3h6cFJJSlFRTnJPekJBPT0K",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Installer.exe"
                                          }
                   }
 }

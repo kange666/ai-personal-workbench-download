@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.9
+# 星枢 ASTRION V2.0.10
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.9/AI-Personal-Workbench-V2.0.9-Portable.exe)
-- [查看 V2.0.9 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.9)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Portable.exe)
+- [查看 V2.0.10 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.10)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.9 优化右侧边栏：黄历默认仅显示日期，右侧箭头展开或收起宜忌；休息站、当前工作、异常状态依次排列。修复 TAPD 缺陷列表、数量和自动处理预览混入旧同步条目的问题，保留历史记录。前端 440 项测试通过，Rust 275 项通过（2 项按现有配置忽略），生产构建及格式检查通过。
+V2.0.10 新增全自动挂机的召唤军团，替换射箭游戏；六兵种、24种强化、四种策略和自动存档，本关阵亡不补兵、进入下一关统一复活，并优化装备、动作与技能特效。孤塔守夜新增塔芯、组合进化、怪物、批量及自动升级、强化搜索和战斗统计，保留旧档与无尽模式。前端479项测试、Rust275项测试通过（2项按既有配置忽略），生产构建、格式检查、三轮桌面游玩和三种窗口尺寸检查通过。
 
 ## 核心工作流
 
