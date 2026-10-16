@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.7
+# 星枢 ASTRION V2.0.8
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.7/AI-Personal-Workbench-V2.0.7-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.7/AI-Personal-Workbench-V2.0.7-Portable.exe)
-- [查看 V2.0.7 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.7)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.8/AI-Personal-Workbench-V2.0.8-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.8/AI-Personal-Workbench-V2.0.8-Portable.exe)
+- [查看 V2.0.8 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.8)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.7 新增五子棋“DeepSeek · 最高”，使用工作台配置的密钥，只发送棋盘和执子，结合联网建议、连续杀棋证明与最多约8秒的本地深搜；无效建议明确提示由最高档搜索修正。五子棋更新为30道多步实战残局，实际连五才通关；新题库重新计算星级，自由对弈与最高分保留。射箭提高电脑强度，塔防适度提高压力并支持强化次数累计、免费不限次刷新和暂不选择，强化说明详细展示并折行。修复经典50层魔塔离线启动问题。五子棋、射箭各完成三轮 Windows Tauri 桌面场景验收；完整前端459项、Rust274项测试通过，2项既有本机只读集成检查按原设置忽略。
+V2.0.8 调整塔防“孤塔守夜”的自动暂停行为：点击其他窗口后继续自动战斗，保留手动暂停、强化选卡暂停、隐藏窗口暂停及关闭后续玩；其他小游戏继续使用原有暂停规则。本次按用户要求跳过自动测试与桌面验收，不声明测试或验收通过。
 
 ## 核心工作流
 
