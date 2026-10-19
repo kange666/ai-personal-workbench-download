@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.10
+# 星枢 ASTRION V2.0.11
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.10/AI-Personal-Workbench-V2.0.10-Portable.exe)
-- [查看 V2.0.10 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.10)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Portable.exe)
+- [查看 V2.0.11 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.11)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.10 新增全自动挂机的召唤军团，替换射箭游戏；六兵种、24种强化、四种策略和自动存档，本关阵亡不补兵、进入下一关统一复活，并优化装备、动作与技能特效。孤塔守夜新增塔芯、组合进化、怪物、批量及自动升级、强化搜索和战斗统计，保留旧档与无尽模式。前端479项测试、Rust275项测试通过（2项按既有配置忽略），生产构建、格式检查、三轮桌面游玩和三种窗口尺寸检查通过。
+V2.0.11 修复穿云弹幕并增强七束金色齐射、蓄能与释放提示；堡垒新增持续护环、环形脉冲和聚能光束，冰冻加入解冻保护与递减收益。召唤军团改为玩家手动召兵、训练和选强化，挂机仅自动进入下一关，并新增强攻号令与战地救援；同时修复连续选卡位置跳动和面板遮挡。召唤军团启用新版存档，本次不迁移旧军团进度，其他游戏存档独立保存。
 
 ## 核心工作流
 
