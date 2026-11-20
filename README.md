@@ -1,16 +1,16 @@
-# 星枢 ASTRION V2.0.11
+# 星枢 ASTRION V2.0.12
 
 一个整合项目、知识、自动化和工作状态的个人数字空间。星枢在 Windows 本机连接 Codex、Git、本地项目、任务、测试、TAPD、Jenkins 和 Apifox，帮助你回答：今天完成了什么、现在正在做什么、哪里需要处理，以及哪些经验可以再次复用。
 
 ## 立即下载
 
-- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Installer.exe)
-- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Portable.exe)
-- [查看 V2.0.11 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.11)
+- [下载安装版（推荐）](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.12/AI-Personal-Workbench-V2.0.12-Installer.exe)
+- [下载便携版](https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.12/AI-Personal-Workbench-V2.0.12-Portable.exe)
+- [查看 V2.0.12 Release 与 SHA-256](https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.12)
 - [打开完整下载页](https://kange666.github.io/ai-personal-workbench-download/)
 - [查看源代码](https://github.com/kange666/ai-personal-workbench)
 
-V2.0.11 修复穿云弹幕并增强七束金色齐射、蓄能与释放提示；堡垒新增持续护环、环形脉冲和聚能光束，冰冻加入解冻保护与递减收益。召唤军团改为玩家手动召兵、训练和选强化，挂机仅自动进入下一关，并新增强攻号令与战地救援；同时修复连续选卡位置跳动和面板遮挡。召唤军团启用新版存档，本次不迁移旧军团进度，其他游戏存档独立保存。
+V2.0.12 接口文档支持按模块同步 Apifox 项目，多模块中的同路径接口可分别查看和导出。工作台会记住每个项目上次打开的接口和目录；批量同步分别显示项目同步失败与本地列表读取错误，并减少重复读取。Jenkins 发布中心可在成功构建的记录中显示提取到的镜像版本。
 
 ## 核心工作流
 

@@ -1,29 +1,29 @@
 {
-  "version": "2.0.11",
-  "notes": "V2.0.11 优化塔防技能反馈与平衡，并增加召唤军团的手动指挥空间。\n\n- 修复穿云弹幕在普攻击杀目标后无法生效的问题，改为先释放弹幕再普攻；增加七束金色扇形齐射、蓄能条、释放提示和累计次数。\n- 加强堡垒塔芯，新增持续伤害护环、环形脉冲和聚能光束，伤害与覆盖可随强化成长。\n- 冰冻不能重复刷新，加入普通敌人与首领的解冻保护；冻结时长、概率和减速采用递减收益，避免永久控制。\n- 召唤军团保留自动战斗和可选自动过关；召兵、永久训练、强化和失败后出征改由玩家操作，新增强攻号令与战地救援。\n- 优化连续选强化、面板滚动定位和小窗口文字换行，避免关间按钮与组合摘要变化挤动卡片。\n\n存档说明：召唤军团启用新版存档，本次不迁移旧军团进度；其他游戏存档独立保存。\n",
-  "pub_date": "2026-10-19T07:53:21Z",
-  "publishedAt": "2026-10-19T07:53:21Z",
-  "releaseUrl": "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.11",
-  "sourceUrl": "https://github.com/kange666/ai-personal-workbench",
-  "sourceCommit": "e5bc6f24a6d21a11e5f7e371e750ca9827d7d449",
-  "installer": {
-    "name": "AI-Personal-Workbench-V2.0.11-Installer.exe",
-    "sizeBytes": 39733862,
-    "sizeText": "37.89 MB",
-    "sha256": "7510E9CB9EAEF01B8A9C247D3287CDAFDC6927C7754228F9F5D6215D97A9C888",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Installer.exe"
-  },
-  "portable": {
-    "name": "AI-Personal-Workbench-V2.0.11-Portable.exe",
-    "sizeBytes": 59580928,
-    "sizeText": "56.82 MB",
-    "sha256": "90FA33F0EA1D9B103591D4399B681529979EE8A19D0EFED6583D4872FF072299",
-    "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Portable.exe"
-  },
-  "platforms": {
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2hrSk1LaFZ3T2R2bXR5My9rZXpwWUhNMG1senAySkJtdTkwSDhNSlB6TTFIcWdMVlRDZUpGTmVhTXB2eWQ1Rzh2dDZLRkZkSUJOc29Xc0F3d0xJdkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzk2MzkyCWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC4xMV94NjQtc2V0dXAuZXhlClc4ZkRpK04vYmJxaCtIL2FKbVdUOE1jYklndy83VzFRSjN1NmgwVm1ZSFdxMnpTdFQ1RlYvcFVzY0FhWU9HOFdCMFgxVVZodnBOaHdveEpBdVNQQ0JRPT0K",
-      "url": "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.11/AI-Personal-Workbench-V2.0.11-Installer.exe"
-    }
-  }
+    "version":  "2.0.12",
+    "notes":  "接口文档支持按模块同步 Apifox 项目，多模块中的同路径接口可分别查看和导出。工作台会记住每个项目上次打开的接口和目录；批量同步分别显示项目同步失败与本地列表读取错误，并减少重复读取。Jenkins 发布中心可在成功构建的记录中显示提取到的镜像版本。",
+    "pub_date":  "2026-11-20T08:35:38Z",
+    "publishedAt":  "2026-11-20T08:35:38Z",
+    "releaseUrl":  "https://github.com/kange666/ai-personal-workbench-download/releases/tag/V2.0.12",
+    "sourceUrl":  "https://github.com/kange666/ai-personal-workbench",
+    "sourceCommit":  "7b251224a283369d7b3fb99aec4783cc7c28bbdb",
+    "installer":  {
+                      "name":  "AI-Personal-Workbench-V2.0.12-Installer.exe",
+                      "sizeBytes":  39747324,
+                      "sizeText":  "37.91 MB",
+                      "sha256":  "E5579A992AE251A6284ABC891897C1650F337EE5C0DC9394E4D5BB93AD35EA5E",
+                      "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.12/AI-Personal-Workbench-V2.0.12-Installer.exe"
+                  },
+    "portable":  {
+                     "name":  "AI-Personal-Workbench-V2.0.12-Portable.exe",
+                     "sizeBytes":  59511808,
+                     "sizeText":  "56.75 MB",
+                     "sha256":  "9D27594307E36277BAF0D0F2E8A66FBF412BEDE781F1B9DCE7D790AF547F93D4",
+                     "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.12/AI-Personal-Workbench-V2.0.12-Portable.exe"
+                 },
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRVVhXNG5STXQ4d2hOaGpnTWhwTTZod0JFaUpIam54UnBsaFJZRHVXdkJRdUROb1doUWR0WVZ4OUU0VVdIY25rQ2hOR2huaGd5WTl1NEYyQitCRUl2RlBXdGw5cmcrQ1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTYzNzM0CWZpbGU65pif5p6i5bel5L2c5Y+wXzIuMC4xMl94NjQtc2V0dXAuZXhlCjdkaGVackR2ME81OXB6bU5wbklVZ3pNbTZiZzNnREJhTWh6ZlZ0Umk2L0RWSWpPZzZWdGJCNXdlR1pyZHIyVkk2eUQxSW1keTJjMnNtVWhRdFRpOEJnPT0K",
+                                             "url":  "https://github.com/kange666/ai-personal-workbench-download/releases/download/V2.0.12/AI-Personal-Workbench-V2.0.12-Installer.exe"
+                                         }
+                  }
 }
